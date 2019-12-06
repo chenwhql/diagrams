@@ -1,1 +1,25 @@
-<mxfile host="www.draw.io" modified="2019-12-06T04:50:26.725Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" version="12.3.7" etag="pR66vBXEdQVcEQQ1y9Sn" type="github"><diagram id="v0ASvqTPKci_ceDCKlCY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-06T04:55:04.388Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="GXyKgoDJ9s7tS1D01fyx" version="12.3.7" type="github" pages="1">
+  <diagram id="v0ASvqTPKci_ceDCKlCY" name="Page-1">
+    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="w6iv9a7Wq5GH_BuV2UZr-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;raw data&lt;br&gt;(CPU)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="100" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="w6iv9a7Wq5GH_BuV2UZr-2" value="&lt;span style=&quot;font-size: 14px&quot;&gt;np.array&lt;br&gt;(CPU)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="165" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="w6iv9a7Wq5GH_BuV2UZr-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=right;labelPosition=left;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="70" y="230" width="240" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="w6iv9a7Wq5GH_BuV2UZr-4" value="&lt;font style=&quot;font-size: 14px&quot;&gt;DataLoader&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="240" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="w6iv9a7Wq5GH_BuV2UZr-8" value="&lt;span style=&quot;font-size: 14px&quot;&gt;vector&amp;lt;LoDTensor&amp;gt;&lt;br&gt;(GPU)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="280" width="160" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
