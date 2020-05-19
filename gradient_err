@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-19T06:27:36.212Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="ejITf-BA0ZGPDxrPmzge" version="13.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-05-19T06:41:07.582Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="NQWM4BSw_7I7Ky5eu3kS" version="13.1.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -141,7 +141,7 @@
         <mxCell id="0xqoyPDl_mzkRpLbKzaY-23" value="这里不使用，反向传播时梯度为0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0xqoyPDl_mzkRpLbKzaY-1">
           <mxGeometry x="390" y="200" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0xqoyPDl_mzkRpLbKzaY-24" value="由于StaticModelRunner执行时，没有左边的绿色分支，所以此处不会添加梯度累加操作，name后续使用时，这里不会进行梯度累加，" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0xqoyPDl_mzkRpLbKzaY-1">
+        <mxCell id="0xqoyPDl_mzkRpLbKzaY-24" value="由于StaticModelRunner执行时，没有左边的绿色分支，所以初始化时不会添加梯度累加操作，添加绿色分支后使用时，这里不会进行梯度累加，导致错误" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0xqoyPDl_mzkRpLbKzaY-1">
           <mxGeometry x="250" y="410" width="247" height="20" as="geometry" />
         </mxCell>
       </root>
