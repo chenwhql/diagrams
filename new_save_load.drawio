@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2020-10-07T14:46:23.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" version="13.6.6" etag="MLfkgPsr4j1dcKuoWLFN" type="github"><diagram id="xvaDDSzPtduDtoku5TKO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-07T15:02:20.173Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="Q0W734w6OnKdszdTiPK1" version="13.6.6" type="github">
+  <diagram id="xvaDDSzPtduDtoku5TKO" name="Page-1">
+    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YTdMOrOy_9PNuUq5TveW-41" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="720" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YTdMOrOy_9PNuUq5TveW-42" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YTdMOrOy_9PNuUq5TveW-41">
+          <mxGeometry width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YTdMOrOy_9PNuUq5TveW-43" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="YTdMOrOy_9PNuUq5TveW-42">
+          <mxGeometry width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YTdMOrOy_9PNuUq5TveW-44" value="动态图" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="YTdMOrOy_9PNuUq5TveW-42">
+          <mxGeometry x="60" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YTdMOrOy_9PNuUq5TveW-45" value="静态图" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="YTdMOrOy_9PNuUq5TveW-42">
+          <mxGeometry x="270" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YTdMOrOy_9PNuUq5TveW-46" value="高层API" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="YTdMOrOy_9PNuUq5TveW-42">
+          <mxGeometry x="500" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YTdMOrOy_9PNuUq5TveW-47" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YTdMOrOy_9PNuUq5TveW-41">
+          <mxGeometry y="40" width="720" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YTdMOrOy_9PNuUq5TveW-48" value="训练调优" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="YTdMOrOy_9PNuUq5TveW-47">
+          <mxGeometry width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YTdMOrOy_9PNuUq5TveW-49" value="paddle.save&lt;br&gt;(path.pdparams)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="YTdMOrOy_9PNuUq5TveW-47">
+          <mxGeometry x="60" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YTdMOrOy_9PNuUq5TveW-50" value="paddle.static.save&lt;br&gt;(*.pdmodel, *.pdparams, *.pdopt)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="YTdMOrOy_9PNuUq5TveW-47">
+          <mxGeometry x="270" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YTdMOrOy_9PNuUq5TveW-51" value="paddle.Model().save(training=True)&lt;br&gt;（静：*.pdmodel, *.pdparams, *.pdopt)&lt;br&gt;(动：*.pdparams, *.pdopt)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="YTdMOrOy_9PNuUq5TveW-47">
+          <mxGeometry x="500" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YTdMOrOy_9PNuUq5TveW-52" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YTdMOrOy_9PNuUq5TveW-41">
+          <mxGeometry y="90" width="720" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YTdMOrOy_9PNuUq5TveW-53" value="训练部署" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="YTdMOrOy_9PNuUq5TveW-52">
+          <mxGeometry width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YTdMOrOy_9PNuUq5TveW-54" value="paddle.jit.save&lt;br&gt;(path.pdparams, path.pdiparams)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="YTdMOrOy_9PNuUq5TveW-52">
+          <mxGeometry x="60" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YTdMOrOy_9PNuUq5TveW-55" value="paddle.static.save_inference_model&lt;br&gt;(*.pdmodel, *.pdiparams)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="YTdMOrOy_9PNuUq5TveW-52">
+          <mxGeometry x="270" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YTdMOrOy_9PNuUq5TveW-56" value="paddle.Model().save(training=False)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="YTdMOrOy_9PNuUq5TveW-52">
+          <mxGeometry x="500" width="220" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
