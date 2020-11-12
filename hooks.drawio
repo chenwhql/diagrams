@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T09:57:04.186Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="e2UIAdCXzxijg3P9iIzT" version="13.7.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-11-12T12:44:13.911Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="0UCcvrrIbCmU5g9dz7EP" version="13.7.9" type="github" pages="5">
   <diagram id="CHJEsGoGNcg8XjefrINr" name="Page-1">
     <mxGraphModel dx="1113" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -845,7 +845,7 @@
         <mxCell id="EkxN6pyKObYtHaumg2W5-6" value="Tracer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="EkxN6pyKObYtHaumg2W5-1">
           <mxGeometry x="160" y="234" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EkxN6pyKObYtHaumg2W5-7" value="OpBase(ins(VarBase...), outs(VarBase...), ...)" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="EkxN6pyKObYtHaumg2W5-1">
+        <mxCell id="EkxN6pyKObYtHaumg2W5-7" value="OpBase(ins(&lt;b&gt;VarBase&lt;/b&gt;...), outs(VarBase...), ...)" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="EkxN6pyKObYtHaumg2W5-1">
           <mxGeometry x="165" y="270" width="175" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EkxN6pyKObYtHaumg2W5-8" value="OpBase(ins(VarBase...), outs(VarBase...), ...)" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="EkxN6pyKObYtHaumg2W5-1">
@@ -875,8 +875,26 @@
         <mxCell id="EkxN6pyKObYtHaumg2W5-18" value="OpBase(ins(VariableWrapper...), outs(VariableWrapper...), ...)" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="EkxN6pyKObYtHaumg2W5-1">
           <mxGeometry x="165" y="700" width="225" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="EkxN6pyKObYtHaumg2W5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=1;fontSize=14;" edge="1" parent="EkxN6pyKObYtHaumg2W5-1" source="EkxN6pyKObYtHaumg2W5-19" target="EkxN6pyKObYtHaumg2W5-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EkxN6pyKObYtHaumg2W5-19" value="记录Hooks&lt;br&gt;- OpBasePreHooks&lt;br&gt;- GradAccumulaterPostHook" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="EkxN6pyKObYtHaumg2W5-1">
-          <mxGeometry x="440" y="260" width="210" height="90" as="geometry" />
+          <mxGeometry x="610" y="245" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EkxN6pyKObYtHaumg2W5-20" value="VariableWrapper" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontSize=14;" vertex="1" parent="EkxN6pyKObYtHaumg2W5-1">
+          <mxGeometry x="435" y="270" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EkxN6pyKObYtHaumg2W5-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=1;fontSize=14;" edge="1" parent="EkxN6pyKObYtHaumg2W5-1" source="EkxN6pyKObYtHaumg2W5-22" target="EkxN6pyKObYtHaumg2W5-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EkxN6pyKObYtHaumg2W5-22" value="GradVarBase" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontSize=14;" vertex="1" parent="EkxN6pyKObYtHaumg2W5-1">
+          <mxGeometry x="440" y="207.5" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="EkxN6pyKObYtHaumg2W5-23" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=14;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EkxN6pyKObYtHaumg2W5-1" source="EkxN6pyKObYtHaumg2W5-7" target="EkxN6pyKObYtHaumg2W5-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
