@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T12:45:46.089Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="QzNh7PwlMd2oSnU2FJ3A" version="13.7.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-11-13T07:19:35.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="Fxvhu87oWEg3TIrAnj4Y" version="13.7.9" type="github" pages="6">
   <diagram id="CHJEsGoGNcg8XjefrINr" name="Page-1">
     <mxGraphModel dx="1113" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -895,6 +895,73 @@
             <mxPoint x="390" y="420" as="sourcePoint" />
             <mxPoint x="440" y="370" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tlGhgrLrvMCsmKQYUT3f" name="Page-6">
+    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-0" />
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-1" parent="_cg74oSpWAH4K66VKZ7w-0" />
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-18" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fillColor=none;dashed=1;" vertex="1" parent="_cg74oSpWAH4K66VKZ7w-1">
+          <mxGeometry x="230" y="140" width="210" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-3" value="x_g" style="text;html=1;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="_cg74oSpWAH4K66VKZ7w-1">
+          <mxGeometry x="306" y="220" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-4" value="x_g" style="text;html=1;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="_cg74oSpWAH4K66VKZ7w-1">
+          <mxGeometry x="270" y="170" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-5" value="x_g" style="text;html=1;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="_cg74oSpWAH4K66VKZ7w-1">
+          <mxGeometry x="346" y="170" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-6" value="" style="endArrow=classic;html=1;dashed=1;strokeWidth=1;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_cg74oSpWAH4K66VKZ7w-1" source="_cg74oSpWAH4K66VKZ7w-4" target="_cg74oSpWAH4K66VKZ7w-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="370" as="sourcePoint" />
+            <mxPoint x="230" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-7" value="" style="endArrow=classic;html=1;dashed=1;strokeWidth=1;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_cg74oSpWAH4K66VKZ7w-1" source="_cg74oSpWAH4K66VKZ7w-5" target="_cg74oSpWAH4K66VKZ7w-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="210" as="sourcePoint" />
+            <mxPoint x="336" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-8" value="batch内某参数梯度累加" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="_cg74oSpWAH4K66VKZ7w-1">
+          <mxGeometry x="40" y="200" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-9" value="执行该Var注册的hook" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="_cg74oSpWAH4K66VKZ7w-1">
+          <mxGeometry x="40" y="310" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-10" value="call hooks" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fontSize=14;fillColor=#d5e8d4;" vertex="1" parent="_cg74oSpWAH4K66VKZ7w-1">
+          <mxGeometry x="271" y="300" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-11" value="跨batch梯度累加" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="_cg74oSpWAH4K66VKZ7w-1">
+          <mxGeometry x="40" y="400" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-12" value="old_x_g" style="text;html=1;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fontSize=14;" vertex="1" parent="_cg74oSpWAH4K66VKZ7w-1">
+          <mxGeometry x="250.5" y="395" width="79" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=classic;endFill=1;strokeWidth=1;fontSize=14;" edge="1" parent="_cg74oSpWAH4K66VKZ7w-1" source="_cg74oSpWAH4K66VKZ7w-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-14" value="x_g" style="text;html=1;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="_cg74oSpWAH4K66VKZ7w-1">
+          <mxGeometry x="360" y="395" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-15" value="多卡reduce" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="_cg74oSpWAH4K66VKZ7w-1">
+          <mxGeometry x="40" y="480" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-16" value="call reduce hook" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fontSize=14;fillColor=#d5e8d4;" vertex="1" parent="_cg74oSpWAH4K66VKZ7w-1">
+          <mxGeometry x="271" y="470" width="119" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-19" value="GradientAccumulator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=14;" vertex="1" parent="_cg74oSpWAH4K66VKZ7w-1">
+          <mxGeometry x="190" y="100" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_cg74oSpWAH4K66VKZ7w-22" value="我们这四件事情是在一个类中完成的" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="_cg74oSpWAH4K66VKZ7w-1">
+          <mxGeometry x="170" y="575" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
