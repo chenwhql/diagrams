@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-07T06:33:35.908Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="xaLRVVC4FRM3LcFzm7Tv" version="14.1.8" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-03-10T11:11:54.727Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="EVsMh7T3xv1HiZsloV7k" version="14.3.0" type="github" pages="12">
   <diagram id="QchtNmKHMTY_QOwAtES3" name="Page-1">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -960,6 +960,50 @@
         </mxCell>
         <mxCell id="rHlGJn6BUCb_B2tfqdqF-30" value="推理&amp;amp;部署" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="axxCYyl7smiQW_fOBo8r-1" vertex="1">
           <mxGeometry x="489" y="650" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="28rXklQgOred9GwXosIT" name="Page-12">
+    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="OOF4gtWAesOltcUM2lJJ-0" />
+        <mxCell id="OOF4gtWAesOltcUM2lJJ-1" parent="OOF4gtWAesOltcUM2lJJ-0" />
+        <mxCell id="OOF4gtWAesOltcUM2lJJ-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OOF4gtWAesOltcUM2lJJ-1">
+          <mxGeometry x="390" y="200" width="240" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="OOF4gtWAesOltcUM2lJJ-2" value="Paddle Save/Load体系 in 2.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OOF4gtWAesOltcUM2lJJ-1">
+          <mxGeometry x="120" y="170" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OOF4gtWAesOltcUM2lJJ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OOF4gtWAesOltcUM2lJJ-1">
+          <mxGeometry x="130" y="200" width="240" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="OOF4gtWAesOltcUM2lJJ-4" value="训练场景" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OOF4gtWAesOltcUM2lJJ-1">
+          <mxGeometry x="150" y="220" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OOF4gtWAesOltcUM2lJJ-5" value="预测场景" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OOF4gtWAesOltcUM2lJJ-1">
+          <mxGeometry x="410" y="220" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OOF4gtWAesOltcUM2lJJ-7" value="paddle.save/load" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OOF4gtWAesOltcUM2lJJ-1">
+          <mxGeometry x="150" y="250" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_DbtphyUy1lXzw7yGrgt-0" value="一套接口，适配各种场景" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OOF4gtWAesOltcUM2lJJ-1">
+          <mxGeometry x="150" y="280" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_DbtphyUy1lXzw7yGrgt-1" value="&lt;ul&gt;&lt;li&gt;保存state_dict&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;保存Tensor&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;。。。。&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OOF4gtWAesOltcUM2lJJ-1">
+          <mxGeometry x="120" y="310" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_DbtphyUy1lXzw7yGrgt-2" value="paddle.jit.save/load" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OOF4gtWAesOltcUM2lJJ-1">
+          <mxGeometry x="414" y="250" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_DbtphyUy1lXzw7yGrgt-3" value="动态图保存推理模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OOF4gtWAesOltcUM2lJJ-1">
+          <mxGeometry x="420" y="280" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_DbtphyUy1lXzw7yGrgt-4" value="paddle.static.save/load_inference_model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OOF4gtWAesOltcUM2lJJ-1">
+          <mxGeometry x="414" y="310" width="206" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_DbtphyUy1lXzw7yGrgt-5" value="静态图保存推理模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OOF4gtWAesOltcUM2lJJ-1">
+          <mxGeometry x="420" y="340" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
