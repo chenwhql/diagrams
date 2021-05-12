@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-12T04:11:04.593Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="X3mbzQ2WemlZkvBPbVod" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-12T04:11:38.711Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="0MuBWw-K8MmenW7NEk-W" version="14.6.6" type="github">
   <diagram id="jq5yFPuxoPh_Z4kW5QYQ" name="Page-1">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,6 +56,9 @@
         </mxCell>
         <mxCell id="FCAmN73nzQrLmGXYLq5s-15" value="全局可推广Demo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="666" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FCAmN73nzQrLmGXYLq5s-18" value="可并行推进" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="516" y="310" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
