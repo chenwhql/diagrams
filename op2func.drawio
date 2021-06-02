@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T07:13:30.790Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="rR-O8IUgc387vG_SfPEt" version="14.7.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-06-02T12:11:01.686Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="P5G-7quXC4ZkG886O1nK" version="14.7.2" type="github" pages="5">
   <diagram id="XrOp-hCifYHvVCoy_8z_" name="Works">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,22 +23,31 @@
           <mxGeometry x="620" y="220" width="136" height="50" as="geometry" />
         </mxCell>
         <mxCell id="e9GTbb6_IaCioA28giuQ-1" value="DeviceContext梳理与升级" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="70" y="500" width="190" height="30" as="geometry" />
+          <mxGeometry x="227" y="460" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e9GTbb6_IaCioA28giuQ-2" value="Op注册字符串匹配效率优化" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="67.5" y="710" width="195" height="30" as="geometry" />
+          <mxGeometry x="224.5" y="670" width="195" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e9GTbb6_IaCioA28giuQ-3" value="基本Op注册工具类与宏实现" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="70" y="580" width="190" height="30" as="geometry" />
+          <mxGeometry x="227" y="540" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e9GTbb6_IaCioA28giuQ-4" value="基本Kernel注册工具类与宏实现" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="70" y="650" width="190" height="30" as="geometry" />
+          <mxGeometry x="227" y="610" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="H91RKQyBho5wwP788nNk-1" value="OpKernelType整理优化" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="370" y="585" width="190" height="30" as="geometry" />
+          <mxGeometry x="460" y="490" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="H91RKQyBho5wwP788nNk-2" value="FunctionKernel管理设计实现" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="370" y="650" width="190" height="30" as="geometry" />
+          <mxGeometry x="460" y="555" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vFGqD3Ul-odcaPIcFHCj-1" value="仅保留必要的boost头文件" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry y="600" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vFGqD3Ul-odcaPIcFHCj-2" value="第三方高效数据结构头文件引入" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry y="660" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vFGqD3Ul-odcaPIcFHCj-3" value="GetKernelType的统一设计优化" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="460" y="620" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
