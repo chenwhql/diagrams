@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-03T07:23:40.070Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="NPZxrTAxfOsTkh-TCC3O" version="14.7.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-06-03T07:24:56.307Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="npaXKADpQBfBfQtIvT55" version="14.7.2" type="github" pages="7">
   <diagram id="XrOp-hCifYHvVCoy_8z_" name="Works">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -655,8 +655,14 @@
         <mxCell id="VU5qj_uw9-J0iTEewaeT-20" value="UtilFunctions&lt;br&gt;(InferVarType...)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#99FFCC;" vertex="1" parent="jImnkHHuhR4SE33l-gJB-1">
           <mxGeometry x="530" y="80" width="145" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="PrzTixem3UuKizuU64Mn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jImnkHHuhR4SE33l-gJB-1" source="VU5qj_uw9-J0iTEewaeT-21" target="PrzTixem3UuKizuU64Mn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VU5qj_uw9-J0iTEewaeT-21" value="OpInfoBuilder" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#FFCCE6;" vertex="1" parent="jImnkHHuhR4SE33l-gJB-1">
           <mxGeometry x="292.5" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PrzTixem3UuKizuU64Mn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jImnkHHuhR4SE33l-gJB-1" source="VU5qj_uw9-J0iTEewaeT-22" target="PrzTixem3UuKizuU64Mn-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VU5qj_uw9-J0iTEewaeT-22" value="KernelBuilder" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#FFCCFF;" vertex="1" parent="jImnkHHuhR4SE33l-gJB-1">
           <mxGeometry x="462.5" y="230" width="120" height="40" as="geometry" />
@@ -721,6 +727,18 @@
             <mxPoint x="380" y="370" as="sourcePoint" />
             <mxPoint x="540" y="370" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PrzTixem3UuKizuU64Mn-0" value="Global OpInfoMap" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#FFCCE6;" vertex="1" parent="jImnkHHuhR4SE33l-gJB-1">
+          <mxGeometry x="305" y="390" width="145" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PrzTixem3UuKizuU64Mn-1" value="Global FuncKernelMap" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#FFCCFF;" vertex="1" parent="jImnkHHuhR4SE33l-gJB-1">
+          <mxGeometry x="462.5" y="320" width="145" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PrzTixem3UuKizuU64Mn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.448;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="jImnkHHuhR4SE33l-gJB-1" source="PrzTixem3UuKizuU64Mn-2" target="PrzTixem3UuKizuU64Mn-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrzTixem3UuKizuU64Mn-2" value="Build OpInfo" style="html=1;dashed=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="jImnkHHuhR4SE33l-gJB-1">
+          <mxGeometry x="315" y="310" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
