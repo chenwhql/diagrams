@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T12:09:18.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Zz-meH07L8SOY1b-Ly51" version="14.7.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-06-07T12:19:10.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Ga0XWTi8nee4uVV1JGSo" version="14.7.6" type="github" pages="7">
   <diagram id="XrOp-hCifYHvVCoy_8z_" name="Works">
-    <mxGraphModel dx="1615" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-55" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="640" width="193" height="190" as="geometry" />
+        </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-15" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-140" y="325" width="193" height="185" as="geometry" />
         </mxCell>
@@ -23,10 +26,10 @@
           <mxGeometry x="990" y="740" width="136" height="50" as="geometry" />
         </mxCell>
         <mxCell id="e9GTbb6_IaCioA28giuQ-2" value="Op注册字符串匹配效率优化" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="130" y="835" width="195" height="30" as="geometry" />
+          <mxGeometry x="276.5" y="970" width="195" height="30" as="geometry" />
         </mxCell>
         <mxCell id="H91RKQyBho5wwP788nNk-1" value="OpKernelType整理优化" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="110" y="710" width="190" height="30" as="geometry" />
+          <mxGeometry x="340" y="910" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vFGqD3Ul-odcaPIcFHCj-2" value="数据结构引入&lt;br&gt;（1人/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-118.5" y="375" width="150" height="50" as="geometry" />
@@ -52,11 +55,8 @@
         <mxCell id="2GdufCl8BpUNJGM7gGtA-9" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;函数式Op编写、注册及管理&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="-170" y="215" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2GdufCl8BpUNJGM7gGtA-10" value="Tensor计算库C++ API目录梳理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="215" width="250" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-11" value="框架执行体系适配升级" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="215" width="250" height="60" as="geometry" />
+          <mxGeometry x="790" y="215" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-12" value="公用API设计梳理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-340" y="342" width="110" height="20" as="geometry" />
@@ -77,25 +77,22 @@
           <mxGeometry x="-520" y="425" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-21" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="650" width="193" height="185" as="geometry" />
+          <mxGeometry x="-300" y="970" width="193" height="185" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-22" value="数据结构引入&lt;br&gt;（1人/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-238.5" y="700" width="150" height="50" as="geometry" />
+          <mxGeometry x="-278.5" y="1020" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-23" value="boost依赖清理&lt;br&gt;（1人/周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-238.5" y="765" width="150" height="50" as="geometry" />
+          <mxGeometry x="-278.5" y="1085" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-24" value="OpKernel改写为Function" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="667" width="150" height="20" as="geometry" />
+          <mxGeometry x="-280" y="987" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-25" value="Kernel注册工具类与宏实现&lt;br&gt;（威行/1周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="100" y="510" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-26" value="基础FuncKernel管理实现&lt;br&gt;（威行/1周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="100" y="440" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2GdufCl8BpUNJGM7gGtA-27" value="基础计算库目录创建&lt;br&gt;（1人/1周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="670" y="330" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-29" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -123,6 +120,48 @@
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-36" value="计算库C++ API目录梳理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="342" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-39" value="注册字符串匹配效率优化&lt;br&gt;（1人/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="690" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-40" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="193" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-41" value="注册模块完善" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="660" width="84" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-44" value="各种边界Case补齐&lt;br&gt;（威行/1周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="755" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-46" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="640" width="193" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-47" value="各管理组件数据结构替换&lt;br&gt;（1人/1周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-118.5" y="690" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-49" value="高效数据结构替换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="657" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-50" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="640" width="193" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-51" value="代表性Op改写&lt;br&gt;（1人/1周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="700" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-52" value="boost依赖清理&lt;br&gt;（1人/周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="770" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-53" value="OpKernel改写为Function&lt;br&gt;（实验阶段）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="657" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-54" value="OpKernelType整理优化&lt;br&gt;（1人/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="690" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-56" value="原Op组件效率优化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="321.5" y="660" width="108.5" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-57" value="GetKernelType静态化&lt;br&gt;（1人/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="755" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
