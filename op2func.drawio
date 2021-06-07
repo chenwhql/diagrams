@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T12:19:10.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Ga0XWTi8nee4uVV1JGSo" version="14.7.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-06-07T12:28:32.115Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="L-BoIDLdDAj2dxhd-Otp" version="14.7.6" type="github" pages="7">
   <diagram id="XrOp-hCifYHvVCoy_8z_" name="Works">
-    <mxGraphModel dx="1773" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1615" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-63" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="640" width="193" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-65" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="640" width="193" height="190" as="geometry" />
+        </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-55" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="300" y="640" width="193" height="190" as="geometry" />
         </mxCell>
@@ -16,26 +22,8 @@
         <mxCell id="n34ojIebNzXvLdfFtZpw-1" value="FunctionBase升级" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="70" width="136" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="n34ojIebNzXvLdfFtZpw-4" value="FunctionKernel管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="810" y="715" width="136" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="n34ojIebNzXvLdfFtZpw-5" value="动态图执行兼容" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="800" y="810" width="136" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="n34ojIebNzXvLdfFtZpw-6" value="静态图执行兼容" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="990" y="740" width="136" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="e9GTbb6_IaCioA28giuQ-2" value="Op注册字符串匹配效率优化" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="276.5" y="970" width="195" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="H91RKQyBho5wwP788nNk-1" value="OpKernelType整理优化" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="340" y="910" width="190" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="vFGqD3Ul-odcaPIcFHCj-2" value="数据结构引入&lt;br&gt;（1人/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-118.5" y="375" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="vFGqD3Ul-odcaPIcFHCj-3" value="GetKernelType的统一设计优化" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="550" y="720" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-2" value="通用Tensor API抽取&lt;br&gt;（N人/2周，需评审）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-340" y="375" width="150" height="50" as="geometry" />
@@ -43,20 +31,20 @@
         <mxCell id="2GdufCl8BpUNJGM7gGtA-3" value="通用Context API抽取&lt;br&gt;（N人/2周，需评审）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-340" y="440" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2GdufCl8BpUNJGM7gGtA-4" value="boost依赖清理&lt;br&gt;（1人/周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-4" value="boost依赖清理&lt;br&gt;（1人/1周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-118.5" y="440" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-6" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-530" y="300" as="sourcePoint" />
-            <mxPoint x="1516" y="300" as="targetPoint" />
+            <mxPoint x="1030" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-9" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;函数式Op编写、注册及管理&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="215" width="250" height="60" as="geometry" />
+          <mxGeometry x="-66" y="180" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-11" value="框架执行体系适配升级" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="215" width="250" height="60" as="geometry" />
+          <mxGeometry x="680" y="180" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-12" value="公用API设计梳理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-340" y="342" width="110" height="20" as="geometry" />
@@ -77,16 +65,16 @@
           <mxGeometry x="-520" y="425" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-21" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="970" width="193" height="185" as="geometry" />
+          <mxGeometry x="-290" y="1180" width="193" height="185" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-22" value="数据结构引入&lt;br&gt;（1人/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-278.5" y="1020" width="150" height="50" as="geometry" />
+          <mxGeometry x="-268.5" y="1230" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-23" value="boost依赖清理&lt;br&gt;（1人/周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-278.5" y="1085" width="150" height="50" as="geometry" />
+          <mxGeometry x="-268.5" y="1295" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-24" value="OpKernel改写为Function" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="987" width="150" height="20" as="geometry" />
+          <mxGeometry x="-270" y="1197" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-25" value="Kernel注册工具类与宏实现&lt;br&gt;（威行/1周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="100" y="510" width="150" height="50" as="geometry" />
@@ -96,14 +84,14 @@
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-29" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="530" y="650" as="sourcePoint" />
+            <mxPoint x="530" y="1060" as="sourcePoint" />
             <mxPoint x="530" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-30" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-530" y="610" as="sourcePoint" />
-            <mxPoint x="1516" y="610" as="targetPoint" />
+            <mxPoint x="1030" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-31" value="&lt;font style=&quot;font-size: 15px&quot;&gt;第二阶段&lt;br&gt;优化与适配&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
@@ -143,13 +131,13 @@
           <mxGeometry x="-120" y="657" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-50" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="640" width="193" height="220" as="geometry" />
+          <mxGeometry x="-360" y="640" width="193" height="190" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-51" value="代表性Op改写&lt;br&gt;（1人/1周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="700" width="150" height="50" as="geometry" />
+          <mxGeometry x="-340" y="690" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2GdufCl8BpUNJGM7gGtA-52" value="boost依赖清理&lt;br&gt;（1人/周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="770" width="150" height="50" as="geometry" />
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-52" value="代表性模型性能验证&lt;br&gt;（1人/1周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="755" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-53" value="OpKernel改写为Function&lt;br&gt;（实验阶段）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-340" y="657" width="150" height="20" as="geometry" />
@@ -162,6 +150,39 @@
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-57" value="GetKernelType静态化&lt;br&gt;（1人/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="320" y="755" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-59" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="850" width="530" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-60" value="Op改写规范&lt;br&gt;（1人/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="872" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-61" value="新Op开发规范&lt;br&gt;（1人/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="872" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-62" value="新Op规范沉淀" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="887" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-64" value="动态图兼容执行支持&lt;br&gt;（1人/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="690" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-66" value="动态图执行兼容" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="660" width="90" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-67" value="实现迭代与性能验证&lt;br&gt;（1人/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="755" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-68" value="新KernelContext设计实现&lt;br&gt;（1人/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="810" y="690" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-69" value="静态图执行兼容" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="811.5" y="660" width="108.5" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-70" value="静态图兼容执行支持&lt;br&gt;（1人/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="810" y="755" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-71" value="实现迭代与性能验证&lt;br&gt;（1人/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="810" y="820" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
