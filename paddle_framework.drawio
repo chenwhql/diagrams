@@ -1,4 +1,4 @@
-<mxfile modified="2021-06-09T13:17:54.703Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="zV9-n1ZQJ6Uqc4jpZ2nP" version="14.7.6" type="github" pages="8">
+<mxfile modified="2021-06-09T13:27:20.456Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="7SB1x63sbeL2NIMYCeqs" version="14.7.6" type="github" pages="9">
   <diagram id="X-ET9mHpOGj9Mq2T7B19" name="Page-1">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1118,6 +1118,38 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="740" y="340" as="sourcePoint" />
             <mxPoint x="740" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ICaSBpgoTUb-RCH1Ee-V" name="all-works">
+    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="robmpz8OFTneBjGHoWGW-0" />
+        <mxCell id="robmpz8OFTneBjGHoWGW-1" parent="robmpz8OFTneBjGHoWGW-0" />
+        <mxCell id="robmpz8OFTneBjGHoWGW-2" value="函数形式、API组织方式、公用API抽象、团队间达成一致&lt;br style=&quot;font-size: 13px;&quot;&gt;(威行、嘉彬、红雨)" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=0;fontSize=13;" vertex="1" parent="robmpz8OFTneBjGHoWGW-1">
+          <mxGeometry x="170" y="350" width="430" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="robmpz8OFTneBjGHoWGW-3" value="支持Function形式Op及Kernel的编写、注册、管理及查询&lt;br style=&quot;font-size: 13px&quot;&gt;(威行)" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=0;fontSize=13;" vertex="1" parent="robmpz8OFTneBjGHoWGW-1">
+          <mxGeometry x="170" y="260" width="430" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="robmpz8OFTneBjGHoWGW-4" value="动态图执行体系重构&lt;br style=&quot;font-size: 13px&quot;&gt;(嘉彬)" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=0;fontSize=13;" vertex="1" parent="robmpz8OFTneBjGHoWGW-1">
+          <mxGeometry x="460" y="170" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="robmpz8OFTneBjGHoWGW-5" value="" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=0;fontSize=13;" vertex="1" parent="robmpz8OFTneBjGHoWGW-1">
+          <mxGeometry x="170" y="170" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="robmpz8OFTneBjGHoWGW-7" value="静态图执行体系重构&lt;br&gt;(红雨)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="robmpz8OFTneBjGHoWGW-1">
+          <mxGeometry x="160" y="185" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="robmpz8OFTneBjGHoWGW-8" value="新IR设计&lt;br&gt;(辉煌)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="robmpz8OFTneBjGHoWGW-1">
+          <mxGeometry x="335" y="185" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="robmpz8OFTneBjGHoWGW-9" value="" style="endArrow=none;html=1;fontSize=13;exitX=0.611;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="robmpz8OFTneBjGHoWGW-1" source="robmpz8OFTneBjGHoWGW-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="130" as="sourcePoint" />
+            <mxPoint x="335" y="242" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
