@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T03:14:39.801Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="xtdm6pZosZ7EdN_Vicvy" version="14.7.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-06-16T03:35:37.168Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="DF_Qzna2P0w_tIet6Zaz" version="14.7.7" type="github" pages="10">
   <diagram id="XrOp-hCifYHvVCoy_8z_" name="Works">
     <mxGraphModel dx="1773" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1037,22 +1037,48 @@
         <mxCell id="pkXROc-tlTHhvcK0KTRs-0" />
         <mxCell id="pkXROc-tlTHhvcK0KTRs-1" parent="pkXROc-tlTHhvcK0KTRs-0" />
         <mxCell id="pkXROc-tlTHhvcK0KTRs-4" value="Tensor scale(...)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pkXROc-tlTHhvcK0KTRs-1">
-          <mxGeometry x="340" y="181" width="130" height="60" as="geometry" />
+          <mxGeometry x="170" y="181" width="130" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="pkXROc-tlTHhvcK0KTRs-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="pkXROc-tlTHhvcK0KTRs-1" source="pkXROc-tlTHhvcK0KTRs-10" target="pkXROc-tlTHhvcK0KTRs-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pkXROc-tlTHhvcK0KTRs-10" value="template &amp;lt;T&amp;gt;&lt;br&gt;Tensor ScaleCpu(...)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="pkXROc-tlTHhvcK0KTRs-1">
           <mxGeometry x="79" y="400" width="140" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="pkXROc-tlTHhvcK0KTRs-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="pkXROc-tlTHhvcK0KTRs-1" source="pkXROc-tlTHhvcK0KTRs-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="pkXROc-tlTHhvcK0KTRs-11" value="&lt;span style=&quot;&quot;&gt;template &amp;lt;T&amp;gt;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;Tensor ScaleCuda(...)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="pkXROc-tlTHhvcK0KTRs-1">
           <mxGeometry x="249" y="400" width="140" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="pkXROc-tlTHhvcK0KTRs-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="pkXROc-tlTHhvcK0KTRs-1" source="pkXROc-tlTHhvcK0KTRs-12" target="pkXROc-tlTHhvcK0KTRs-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pkXROc-tlTHhvcK0KTRs-12" value="&lt;span style=&quot;&quot;&gt;template &amp;lt;T&amp;gt;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;Tensor ScaleXpu(...)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=10;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="pkXROc-tlTHhvcK0KTRs-1">
           <mxGeometry x="419" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pkXROc-tlTHhvcK0KTRs-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="pkXROc-tlTHhvcK0KTRs-1" source="pkXROc-tlTHhvcK0KTRs-13" target="pkXROc-tlTHhvcK0KTRs-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pkXROc-tlTHhvcK0KTRs-13" value="&lt;span style=&quot;&quot;&gt;template &amp;lt;T&amp;gt;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;Tensor ScaleMkldnn(...)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=10;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="pkXROc-tlTHhvcK0KTRs-1">
           <mxGeometry x="589" y="400" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pkXROc-tlTHhvcK0KTRs-14" value="......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pkXROc-tlTHhvcK0KTRs-1">
           <mxGeometry x="749" y="420" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pkXROc-tlTHhvcK0KTRs-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="pkXROc-tlTHhvcK0KTRs-1" source="pkXROc-tlTHhvcK0KTRs-18" target="pkXROc-tlTHhvcK0KTRs-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pkXROc-tlTHhvcK0KTRs-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="pkXROc-tlTHhvcK0KTRs-1" source="pkXROc-tlTHhvcK0KTRs-18" target="pkXROc-tlTHhvcK0KTRs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pkXROc-tlTHhvcK0KTRs-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="pkXROc-tlTHhvcK0KTRs-1" source="pkXROc-tlTHhvcK0KTRs-18" target="pkXROc-tlTHhvcK0KTRs-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pkXROc-tlTHhvcK0KTRs-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="pkXROc-tlTHhvcK0KTRs-1" source="pkXROc-tlTHhvcK0KTRs-18" target="pkXROc-tlTHhvcK0KTRs-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pkXROc-tlTHhvcK0KTRs-18" value="Tensor scale(&lt;br&gt;&amp;nbsp; &amp;nbsp; Tensor, Tensor)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="pkXROc-tlTHhvcK0KTRs-1">
           <mxGeometry x="79" y="290" width="140" height="60" as="geometry" />
@@ -1066,6 +1092,9 @@
         <mxCell id="pkXROc-tlTHhvcK0KTRs-21" value="SelectedRows scale(&lt;br&gt;&amp;nbsp; &amp;nbsp; SelectedRows, float)" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=10;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pkXROc-tlTHhvcK0KTRs-1">
           <mxGeometry x="599" y="290" width="150" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="pkXROc-tlTHhvcK0KTRs-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="pkXROc-tlTHhvcK0KTRs-1" source="pkXROc-tlTHhvcK0KTRs-22" target="pkXROc-tlTHhvcK0KTRs-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pkXROc-tlTHhvcK0KTRs-22" value="template &amp;lt;Dev, T&amp;gt;&lt;br&gt;void ScaleCommon(...)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=11;" vertex="1" parent="pkXROc-tlTHhvcK0KTRs-1">
           <mxGeometry x="150" y="510" width="160" height="60" as="geometry" />
         </mxCell>
@@ -1076,7 +1105,7 @@
           <mxGeometry x="423.5" y="510" width="131" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pkXROc-tlTHhvcK0KTRs-25" value="Npu::Power(...)" style="rounded=0;whiteSpace=wrap;html=1;align=center;spacingLeft=0;" vertex="1" parent="pkXROc-tlTHhvcK0KTRs-1">
-          <mxGeometry x="590" y="510" width="131" height="60" as="geometry" />
+          <mxGeometry x="593.5" y="510" width="131" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pkXROc-tlTHhvcK0KTRs-26" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="pkXROc-tlTHhvcK0KTRs-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1114,11 +1143,23 @@
         <mxCell id="pkXROc-tlTHhvcK0KTRs-32" value="函数签名层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="pkXROc-tlTHhvcK0KTRs-1">
           <mxGeometry x="-70" y="310" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pkXROc-tlTHhvcK0KTRs-33" value="设备和数据类型层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="pkXROc-tlTHhvcK0KTRs-1">
+        <mxCell id="pkXROc-tlTHhvcK0KTRs-33" value="设备和数据类型层&lt;br&gt;（新Kernel注册）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="pkXROc-tlTHhvcK0KTRs-1">
           <mxGeometry x="-70" y="420" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="pkXROc-tlTHhvcK0KTRs-34" value="内部函数调用层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="pkXROc-tlTHhvcK0KTRs-1">
           <mxGeometry x="-70" y="570" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pkXROc-tlTHhvcK0KTRs-35" value="" style="endArrow=classic;html=1;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="pkXROc-tlTHhvcK0KTRs-1" source="pkXROc-tlTHhvcK0KTRs-4" target="pkXROc-tlTHhvcK0KTRs-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="390" as="sourcePoint" />
+            <mxPoint x="-40" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pkXROc-tlTHhvcK0KTRs-36" value="" style="endArrow=classic;html=1;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="pkXROc-tlTHhvcK0KTRs-1" source="pkXROc-tlTHhvcK0KTRs-4" target="pkXROc-tlTHhvcK0KTRs-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="540" as="sourcePoint" />
+            <mxPoint x="-40" y="490" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
