@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T04:06:34.776Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="MdhL-3gYCIgUBkVsKbiO" version="14.7.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-06-16T13:33:13.479Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="8uMZcwc0V5Ut0T7L8wLD" version="14.7.7" type="github" pages="10">
   <diagram id="XrOp-hCifYHvVCoy_8z_" name="Works">
     <mxGraphModel dx="1773" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,11 +13,11 @@
         <mxCell id="2GdufCl8BpUNJGM7gGtA-55" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="300" y="640" width="193" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="2GdufCl8BpUNJGM7gGtA-15" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="325" width="193" height="185" as="geometry" />
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-15" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="325" width="193" height="255" as="geometry" />
         </mxCell>
-        <mxCell id="2GdufCl8BpUNJGM7gGtA-14" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="325" width="193" height="185" as="geometry" />
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-14" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-360" y="325" width="193" height="255" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" parent="1" source="n34ojIebNzXvLdfFtZpw-1" target="2GdufCl8BpUNJGM7gGtA-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -28,17 +28,17 @@
         <mxCell id="n34ojIebNzXvLdfFtZpw-1" value="FunctionBase计算架构升级" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="300" y="40" width="280" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="vFGqD3Ul-odcaPIcFHCj-2" value="数据结构引入&lt;br&gt;（1人/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-118.5" y="375" width="150" height="50" as="geometry" />
+        <mxCell id="vFGqD3Ul-odcaPIcFHCj-2" value="数据结构引入&lt;br&gt;（天宇/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-118.5" y="510" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-2" value="通用Tensor API抽取&lt;br&gt;（N人/2周，需评审）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-340" y="375" width="150" height="50" as="geometry" />
+          <mxGeometry x="-340" y="445" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-3" value="通用Context API抽取&lt;br&gt;（N人/2周，需评审）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-340" y="440" width="150" height="50" as="geometry" />
+          <mxGeometry x="-340" y="510" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2GdufCl8BpUNJGM7gGtA-4" value="boost依赖清理&lt;br&gt;（1人/1周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-118.5" y="440" width="150" height="50" as="geometry" />
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-4" value="boost依赖清理&lt;br&gt;（天宇/1周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-118.5" y="445" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-6" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -70,17 +70,17 @@
         <mxCell id="2GdufCl8BpUNJGM7gGtA-11" value="框架执行体系适配升级" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="180" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2GdufCl8BpUNJGM7gGtA-12" value="公用API设计梳理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-12" value="公用API及形式统一" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-340" y="342" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-16" value="第三方数据结构梳理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-120" y="342" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2GdufCl8BpUNJGM7gGtA-17" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-17" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="325" width="193" height="255" as="geometry" />
         </mxCell>
-        <mxCell id="2GdufCl8BpUNJGM7gGtA-18" value="Op与Kernel注册模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="100" y="342" width="120" height="20" as="geometry" />
+        <mxCell id="2GdufCl8BpUNJGM7gGtA-18" value="Op与Kernel注册模块（需评审）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="93" y="342" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-19" value="Op注册工具类与宏实现&lt;br&gt;（威行/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="100" y="375" width="150" height="50" as="geometry" />
@@ -228,6 +228,12 @@
         </mxCell>
         <mxCell id="2GdufCl8BpUNJGM7gGtA-81" value="配合静态图执行全面升级&lt;br&gt;（1人/未定）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="790" y="1050" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a306akQ-l_QvD3rkuxKe-1" value="函数形式及基本原则商定&lt;br&gt;（N人/2周，需评审）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="380" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a306akQ-l_QvD3rkuxKe-2" value="数据结构引入&lt;br&gt;（天宇/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-118.5" y="380" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
