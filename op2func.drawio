@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-18T06:29:52.359Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="WMg7Sr8NsOoTZpAdzgaV" version="14.7.7" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-06-18T06:41:03.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="_dV_fxVPlUsMVkcOEcmF" version="14.7.7" type="github" pages="11">
   <diagram id="XrOp-hCifYHvVCoy_8z_" name="Works">
     <mxGraphModel dx="1773" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1022,7 +1022,7 @@
         <mxCell id="uop4ZLeQS_SM-GHOvkWw-23" value="- Tensor values_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;" vertex="1" parent="uop4ZLeQS_SM-GHOvkWw-21">
           <mxGeometry y="74" width="180" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="uop4ZLeQS_SM-GHOvkWw-25" value="OpaqueTensorImpl&lt;OpaqueHandle&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;sketch=1;" vertex="1" parent="3fNZ-PsQ090tszZ4NCdx-1">
+        <mxCell id="uop4ZLeQS_SM-GHOvkWw-25" value="OpaqueTensorImpl&lt;OpaqueHandle&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;sketch=1;" vertex="1" parent="3fNZ-PsQ090tszZ4NCdx-1">
           <mxGeometry x="810" y="441" width="290" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uop4ZLeQS_SM-GHOvkWw-26" value="- OpaqueHandle opaque_handle_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;" vertex="1" parent="uop4ZLeQS_SM-GHOvkWw-25">
@@ -1071,6 +1071,57 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uop4ZLeQS_SM-GHOvkWw-32" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;fontSize=16;entryX=0.5;entryY=1.083;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="3fNZ-PsQ090tszZ4NCdx-1" source="uop4ZLeQS_SM-GHOvkWw-36" target="uop4ZLeQS_SM-GHOvkWw-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="750" y="590" as="sourcePoint" />
+            <mxPoint x="680" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uop4ZLeQS_SM-GHOvkWw-36" value="MKLDNNTensorImpl&#xa;= OpaqueTensorImpl&lt;IDeepTensorWrapperPtr&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=70;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;sketch=1;" vertex="1" parent="3fNZ-PsQ090tszZ4NCdx-1">
+          <mxGeometry x="550" y="585" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uop4ZLeQS_SM-GHOvkWw-38" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3fNZ-PsQ090tszZ4NCdx-1" source="uop4ZLeQS_SM-GHOvkWw-36" target="uop4ZLeQS_SM-GHOvkWw-39">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="560" y="735" as="sourcePoint" />
+            <mxPoint x="695" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uop4ZLeQS_SM-GHOvkWw-39" value="ideep::tensor" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=70;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;sketch=1;" vertex="1" parent="3fNZ-PsQ090tszZ4NCdx-1">
+          <mxGeometry x="615" y="685" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uop4ZLeQS_SM-GHOvkWw-40" value="MetalTensorImpl" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;sketch=1;" vertex="1" parent="3fNZ-PsQ090tszZ4NCdx-1">
+          <mxGeometry x="860" y="585" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uop4ZLeQS_SM-GHOvkWw-41" value="- SmallVector&lt;int64_t, 5&gt; strides_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;" vertex="1" parent="uop4ZLeQS_SM-GHOvkWw-40">
+          <mxGeometry y="26" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="uop4ZLeQS_SM-GHOvkWw-42" value="VulkanOpaqueTensorImpl" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;sketch=1;" vertex="1" parent="3fNZ-PsQ090tszZ4NCdx-1">
+          <mxGeometry x="1100" y="585" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uop4ZLeQS_SM-GHOvkWw-43" value="- SmallVector&lt;int64_t, 5&gt; strides_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;" vertex="1" parent="uop4ZLeQS_SM-GHOvkWw-42">
+          <mxGeometry y="26" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="uop4ZLeQS_SM-GHOvkWw-45" value="MetalTensorImplStorage" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;sketch=1;" vertex="1" parent="3fNZ-PsQ090tszZ4NCdx-1">
+          <mxGeometry x="860" y="680" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uop4ZLeQS_SM-GHOvkWw-46" value="- std::shared_ptr&lt;Impl&gt; _impl;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;" vertex="1" parent="uop4ZLeQS_SM-GHOvkWw-45">
+          <mxGeometry y="26" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="uop4ZLeQS_SM-GHOvkWw-47" value="VulkanTensor" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;sketch=1;" vertex="1" parent="3fNZ-PsQ090tszZ4NCdx-1">
+          <mxGeometry x="1100" y="680" width="220" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="uop4ZLeQS_SM-GHOvkWw-48" value="- VkInstance instance_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;" vertex="1" parent="uop4ZLeQS_SM-GHOvkWw-47">
+          <mxGeometry y="26" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="uop4ZLeQS_SM-GHOvkWw-49" value="- VkDevice device_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;" vertex="1" parent="uop4ZLeQS_SM-GHOvkWw-47">
+          <mxGeometry y="50" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="uop4ZLeQS_SM-GHOvkWw-50" value="- VkCommandPool commandPool_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;" vertex="1" parent="uop4ZLeQS_SM-GHOvkWw-47">
+          <mxGeometry y="74" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="uop4ZLeQS_SM-GHOvkWw-51" value="- ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;" vertex="1" parent="uop4ZLeQS_SM-GHOvkWw-47">
+          <mxGeometry y="98" width="220" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
