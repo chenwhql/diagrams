@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T08:52:24.214Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="0JNouIsIWVhGsge1MnpN" version="14.8.0" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-06-22T09:03:22.409Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="1AuqREwX2qJ4k-hFxrrh" version="14.8.0" type="github" pages="12">
   <diagram id="XrOp-hCifYHvVCoy_8z_" name="Works">
     <mxGraphModel dx="1773" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1389,7 +1389,7 @@
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" source="VDW-bL01V7UmtTu4qGaJ-14" target="VDW-bL01V7UmtTu4qGaJ-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-14" value="Tensor scale(&lt;br&gt;&amp;nbsp; &amp;nbsp; Tensor, Tensor, ...)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=11;fillColor=#d5e8d4;strokeColor=#82b366;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
+        <mxCell id="VDW-bL01V7UmtTu4qGaJ-14" value="Tensor (&lt;br&gt;&amp;nbsp; &amp;nbsp; Tensor, Tensor, ...)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=11;fillColor=#d5e8d4;strokeColor=#82b366;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
           <mxGeometry x="79" y="290" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-15" value="Tensor scale(&lt;br&gt;&amp;nbsp; &amp;nbsp; Tensor, float, ...)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#d5e8d4;strokeColor=#82b366;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
@@ -1449,11 +1449,11 @@
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-28" value="C++ API层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
           <mxGeometry x="-50" y="203" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-29" value="C++ API实现层&lt;br&gt;（Optional）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
-          <mxGeometry x="-70" y="310" width="130" height="20" as="geometry" />
+        <mxCell id="VDW-bL01V7UmtTu4qGaJ-29" value="输入参数选择层&lt;br&gt;（Optional）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
+          <mxGeometry x="-70" y="300" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-30" value="设备和数据类型层&lt;br&gt;（新Kernel注册）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
-          <mxGeometry x="-70" y="420" width="130" height="20" as="geometry" />
+        <mxCell id="VDW-bL01V7UmtTu4qGaJ-30" value="设备和数据类型选择层&lt;br&gt;（新Kernel注册）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
+          <mxGeometry x="-100" y="420" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-31" value="内部函数调用层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
           <mxGeometry x="-70" y="570" width="130" height="20" as="geometry" />
