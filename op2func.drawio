@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T04:06:40.747Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="8PAv12ZrDKDds3Dtis8N" version="14.8.0" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-06-22T08:48:00.045Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="xIDBT3uzXk9eQ2BkUBdm" version="14.8.0" type="github" pages="12">
   <diagram id="XrOp-hCifYHvVCoy_8z_" name="Works">
     <mxGraphModel dx="1773" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1389,17 +1389,17 @@
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" source="VDW-bL01V7UmtTu4qGaJ-14" target="VDW-bL01V7UmtTu4qGaJ-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-14" value="Tensor scale(&lt;br&gt;&amp;nbsp; &amp;nbsp; Tensor, Tensor)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=11;fillColor=#d5e8d4;strokeColor=#82b366;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
+        <mxCell id="VDW-bL01V7UmtTu4qGaJ-14" value="Tensor scale(&lt;br&gt;&amp;nbsp; &amp;nbsp; Tensor, Tensor, ...)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=11;fillColor=#d5e8d4;strokeColor=#82b366;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
           <mxGeometry x="79" y="290" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-15" value="Tensor scale(&lt;br&gt;&amp;nbsp; &amp;nbsp; Tensor, float)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#d5e8d4;strokeColor=#82b366;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
-          <mxGeometry x="249" y="290" width="140" height="60" as="geometry" />
+        <mxCell id="VDW-bL01V7UmtTu4qGaJ-15" value="Tensor scale(&lt;br&gt;&amp;nbsp; &amp;nbsp; Tensor, float, ...)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#d5e8d4;strokeColor=#82b366;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
+          <mxGeometry x="440" y="290" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-16" value="SelectedRows scale(&lt;br&gt;&amp;nbsp; &amp;nbsp; SelectedRows, Tensor)" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=10;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
-          <mxGeometry x="412" y="290" width="160" height="60" as="geometry" />
+        <mxCell id="VDW-bL01V7UmtTu4qGaJ-16" value="SelectedRows scale(&lt;br&gt;&amp;nbsp; &amp;nbsp; SelectedRows, Tensor, ...)" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=10;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
+          <mxGeometry x="240" y="290" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-17" value="SelectedRows scale(&lt;br&gt;&amp;nbsp; &amp;nbsp; SelectedRows, float)" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=10;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
-          <mxGeometry x="599" y="290" width="150" height="60" as="geometry" />
+        <mxCell id="VDW-bL01V7UmtTu4qGaJ-17" value="SelectedRows scale(&lt;br&gt;&amp;nbsp; &amp;nbsp; SelectedRows, float, ...)" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=10;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
+          <mxGeometry x="599" y="290" width="161" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" source="VDW-bL01V7UmtTu4qGaJ-19" target="VDW-bL01V7UmtTu4qGaJ-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1461,17 +1461,20 @@
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="eiCdpPDRoMP6rdo_62gw-1" source="VDW-bL01V7UmtTu4qGaJ-34" target="VDW-bL01V7UmtTu4qGaJ-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="eiCdpPDRoMP6rdo_62gw-1" source="VDW-bL01V7UmtTu4qGaJ-34" target="VDW-bL01V7UmtTu4qGaJ-15" edge="1">
+        <mxCell id="VDW-bL01V7UmtTu4qGaJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="eiCdpPDRoMP6rdo_62gw-1" source="7He__Fgd2p1crWSwTC7m-0" target="VDW-bL01V7UmtTu4qGaJ-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="eiCdpPDRoMP6rdo_62gw-1" source="VDW-bL01V7UmtTu4qGaJ-34" target="VDW-bL01V7UmtTu4qGaJ-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="eiCdpPDRoMP6rdo_62gw-1" source="VDW-bL01V7UmtTu4qGaJ-34" target="VDW-bL01V7UmtTu4qGaJ-17" edge="1">
+        <mxCell id="VDW-bL01V7UmtTu4qGaJ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="eiCdpPDRoMP6rdo_62gw-1" source="7He__Fgd2p1crWSwTC7m-0" target="VDW-bL01V7UmtTu4qGaJ-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-34" value="Tensor scale(...)" style="rounded=0;whiteSpace=wrap;html=1;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
-          <mxGeometry x="330" y="181" width="130" height="59" as="geometry" />
+        <mxCell id="VDW-bL01V7UmtTu4qGaJ-34" value="Tensor scale(&lt;br&gt;Tensor, Tensor, ...)" style="rounded=0;whiteSpace=wrap;html=1;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
+          <mxGeometry x="165" y="181" width="130" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="7He__Fgd2p1crWSwTC7m-0" value="Tensor scale(&lt;br&gt;Tensor, float, ...)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eiCdpPDRoMP6rdo_62gw-1">
+          <mxGeometry x="530" y="181" width="130" height="59" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
