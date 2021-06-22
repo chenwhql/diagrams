@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T12:12:17.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="pt-YgX4xmk5oURff7pug" version="14.8.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2021-06-22T12:17:28.920Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="ySIp9mGxVcHnW0B4Ump6" version="14.8.0" type="github" pages="13">
   <diagram id="XrOp-hCifYHvVCoy_8z_" name="Works">
     <mxGraphModel dx="1773" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1671,10 +1671,63 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6X5pr3k_jZ9uyYOxgtTx" name="op-works">
-    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VpA_LePad0tKGG3yMJr9-0" />
         <mxCell id="VpA_LePad0tKGG3yMJr9-1" parent="VpA_LePad0tKGG3yMJr9-0" />
+        <mxCell id="Qh2owLQ85nieW020cxGD-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="VpA_LePad0tKGG3yMJr9-1">
+          <mxGeometry x="-340" y="750" width="350" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2owLQ85nieW020cxGD-3" value="通用Tensor实现&lt;br&gt;威行 / 2-4周&lt;br&gt;（Review周期可能会比较长）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="VpA_LePad0tKGG3yMJr9-1">
+          <mxGeometry x="-400" y="390" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2owLQ85nieW020cxGD-4" value="DeviceContext API抽取&lt;br&gt;&lt;br&gt;（N人/2周，需评审）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="VpA_LePad0tKGG3yMJr9-1">
+          <mxGeometry x="-200" y="390" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2owLQ85nieW020cxGD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="VpA_LePad0tKGG3yMJr9-1" source="Qh2owLQ85nieW020cxGD-10" target="Qh2owLQ85nieW020cxGD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2owLQ85nieW020cxGD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="VpA_LePad0tKGG3yMJr9-1" source="Qh2owLQ85nieW020cxGD-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-53.5" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qh2owLQ85nieW020cxGD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="VpA_LePad0tKGG3yMJr9-1" source="Qh2owLQ85nieW020cxGD-10" target="Qh2owLQ85nieW020cxGD-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2owLQ85nieW020cxGD-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="VpA_LePad0tKGG3yMJr9-1" source="Qh2owLQ85nieW020cxGD-10" target="Qh2owLQ85nieW020cxGD-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2owLQ85nieW020cxGD-10" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;函数式Op编写、注册及管理&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="VpA_LePad0tKGG3yMJr9-1">
+          <mxGeometry x="-76" y="120" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2owLQ85nieW020cxGD-13" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="VpA_LePad0tKGG3yMJr9-1">
+          <mxGeometry x="70" y="265" width="193" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2owLQ85nieW020cxGD-14" value="Op与Kernel注册模块（需评审）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VpA_LePad0tKGG3yMJr9-1">
+          <mxGeometry x="83" y="282" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2owLQ85nieW020cxGD-15" value="Op注册工具类与宏实现&lt;br&gt;（威行/2周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="VpA_LePad0tKGG3yMJr9-1">
+          <mxGeometry x="90" y="315" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2owLQ85nieW020cxGD-16" value="Kernel注册工具类与宏实现&lt;br&gt;（威行/1周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="VpA_LePad0tKGG3yMJr9-1">
+          <mxGeometry x="90" y="450" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2owLQ85nieW020cxGD-17" value="基础FuncKernel管理实现&lt;br&gt;（威行/1周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="VpA_LePad0tKGG3yMJr9-1">
+          <mxGeometry x="90" y="380" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2owLQ85nieW020cxGD-18" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="VpA_LePad0tKGG3yMJr9-1">
+          <mxGeometry x="290" y="265" width="193" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2owLQ85nieW020cxGD-19" value="基础计算库目录创建&lt;br&gt;（1人/1周）" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="VpA_LePad0tKGG3yMJr9-1">
+          <mxGeometry x="311.5" y="315" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2owLQ85nieW020cxGD-20" value="计算库C++ API目录梳理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VpA_LePad0tKGG3yMJr9-1">
+          <mxGeometry x="310" y="282" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2owLQ85nieW020cxGD-21" value="数据结构，函数形式及基本原则商定" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;fontStyle=1;strokeWidth=2;" vertex="1" parent="VpA_LePad0tKGG3yMJr9-1">
+          <mxGeometry x="-290" y="280" width="250" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
