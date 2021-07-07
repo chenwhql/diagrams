@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T09:00:01.746Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="tr49c4iH2a_Uupv2UcR0" version="14.8.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2021-07-07T09:00:11.528Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="-iB7kfwV96v7Pqng-Q-E" version="14.8.4" type="github" pages="16">
   <diagram id="XrOp-hCifYHvVCoy_8z_" name="Works">
     <mxGraphModel dx="1773" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2281,7 +2281,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fPeEREhieaTNz1J8WeKO" name="new-tensor-design">
-    <mxGraphModel dx="1425" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1722" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="l_N8zFf3a3DttV2apxN2-0" />
         <mxCell id="l_N8zFf3a3DttV2apxN2-1" parent="l_N8zFf3a3DttV2apxN2-0" />
@@ -2347,12 +2347,6 @@
         <mxCell id="Hp61pD_gglInkdTPDImZ-16" value="- int64_t height_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;" vertex="1" parent="Hp61pD_gglInkdTPDImZ-14">
           <mxGeometry y="50" width="190" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="Hp61pD_gglInkdTPDImZ-17" value="CustomTensorImpl&lt;AllocationHandle&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#b85450;sketch=1;" vertex="1" parent="l_N8zFf3a3DttV2apxN2-1">
-          <mxGeometry x="1490" y="260" width="290" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="Hp61pD_gglInkdTPDImZ-18" value="- AllocationHandle allocation_handle_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;" vertex="1" parent="Hp61pD_gglInkdTPDImZ-17">
-          <mxGeometry y="26" width="290" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="Hp61pD_gglInkdTPDImZ-19" value="" style="endArrow=block;endSize=16;endFill=0;html=1;fontSize=16;exitX=0.5;exitY=0;exitDx=0;exitDy=0;sketch=1;" edge="1" parent="l_N8zFf3a3DttV2apxN2-1" source="Hp61pD_gglInkdTPDImZ-12" target="Hp61pD_gglInkdTPDImZ-3">
           <mxGeometry x="1" y="-264" width="160" relative="1" as="geometry">
             <mxPoint x="600" y="650" as="sourcePoint" />
@@ -2385,18 +2379,6 @@
         </mxCell>
         <mxCell id="Hp61pD_gglInkdTPDImZ-25" value="- ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;" vertex="1" parent="Hp61pD_gglInkdTPDImZ-24">
           <mxGeometry y="26" width="170" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="Hp61pD_gglInkdTPDImZ-26" value="MetalTensorImplAllocation" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#b85450;sketch=1;" vertex="1" parent="l_N8zFf3a3DttV2apxN2-1">
-          <mxGeometry x="1390" y="510" width="220" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Hp61pD_gglInkdTPDImZ-27" value="- ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;" vertex="1" parent="Hp61pD_gglInkdTPDImZ-26">
-          <mxGeometry y="26" width="220" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="Hp61pD_gglInkdTPDImZ-28" value="OpenCLTensorImplAllocation" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#b85450;sketch=1;" vertex="1" parent="l_N8zFf3a3DttV2apxN2-1">
-          <mxGeometry x="1670" y="510" width="220" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Hp61pD_gglInkdTPDImZ-29" value="- ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;" vertex="1" parent="Hp61pD_gglInkdTPDImZ-28">
-          <mxGeometry y="26" width="220" height="24" as="geometry" />
         </mxCell>
         <mxCell id="Hp61pD_gglInkdTPDImZ-34" value="MKLDNNTensorImpl" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;sketch=1;" vertex="1" parent="l_N8zFf3a3DttV2apxN2-1">
           <mxGeometry x="645" y="560" width="180" height="50" as="geometry" />
