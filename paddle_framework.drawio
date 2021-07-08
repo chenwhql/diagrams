@@ -1,6 +1,6 @@
-<mxfile modified="2021-07-06T10:00:03.852Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="8YTI0x1cI4OOAxO5M0Eb" version="14.8.3" type="github" pages="13">
+<mxfile modified="2021-07-08T02:28:16.767Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="N3dgx42WtC3mpPaSd15q" version="14.8.4" type="github" pages="13">
   <diagram id="X-ET9mHpOGj9Mq2T7B19" name="Page-1">
-    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1124,48 +1124,42 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ICaSBpgoTUb-RCH1Ee-V" name="all-works">
-    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="robmpz8OFTneBjGHoWGW-0" />
         <mxCell id="robmpz8OFTneBjGHoWGW-1" parent="robmpz8OFTneBjGHoWGW-0" />
         <mxCell id="robmpz8OFTneBjGHoWGW-2" value="函数形式、API组织方式、公用API抽象、团队间达成一致&lt;br style=&quot;font-size: 13px;&quot;&gt;(威行、嘉彬、红雨)" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=0;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" parent="robmpz8OFTneBjGHoWGW-1" vertex="1">
-          <mxGeometry x="170" y="350" width="430" height="70" as="geometry" />
+          <mxGeometry x="240" y="350" width="430" height="70" as="geometry" />
         </mxCell>
         <mxCell id="robmpz8OFTneBjGHoWGW-3" value="支持Function形式Op及Kernel的编写、注册、管理及查询&lt;br style=&quot;font-size: 13px&quot;&gt;(威行)" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=0;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="robmpz8OFTneBjGHoWGW-1" vertex="1">
-          <mxGeometry x="170" y="260" width="430" height="70" as="geometry" />
+          <mxGeometry x="240" y="260" width="430" height="70" as="geometry" />
         </mxCell>
         <mxCell id="robmpz8OFTneBjGHoWGW-4" value="动态图执行体系重构&lt;br style=&quot;font-size: 13px&quot;&gt;(嘉彬)" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=0;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;" parent="robmpz8OFTneBjGHoWGW-1" vertex="1">
-          <mxGeometry x="460" y="170" width="140" height="70" as="geometry" />
+          <mxGeometry x="530" y="170" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="robmpz8OFTneBjGHoWGW-5" value="" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=0;fontSize=13;" parent="robmpz8OFTneBjGHoWGW-1" vertex="1">
-          <mxGeometry x="170" y="170" width="270" height="70" as="geometry" />
+          <mxGeometry x="240" y="170" width="270" height="70" as="geometry" />
         </mxCell>
         <mxCell id="robmpz8OFTneBjGHoWGW-7" value="静态图执行体系重构&lt;br&gt;(红雨)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="robmpz8OFTneBjGHoWGW-1" vertex="1">
-          <mxGeometry x="160" y="185" width="190" height="40" as="geometry" />
+          <mxGeometry x="230" y="185" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="robmpz8OFTneBjGHoWGW-8" value="新IR设计&lt;br&gt;(辉煌)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="robmpz8OFTneBjGHoWGW-1" vertex="1">
-          <mxGeometry x="335" y="185" width="100" height="40" as="geometry" />
+          <mxGeometry x="405" y="185" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="robmpz8OFTneBjGHoWGW-9" value="" style="endArrow=none;html=1;fontSize=13;exitX=0.611;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="robmpz8OFTneBjGHoWGW-1" source="robmpz8OFTneBjGHoWGW-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="130" as="sourcePoint" />
-            <mxPoint x="335" y="242" as="targetPoint" />
+            <mxPoint x="320" y="130" as="sourcePoint" />
+            <mxPoint x="405" y="242" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="robmpz8OFTneBjGHoWGW-10" value="函数形式与API设计统一" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="robmpz8OFTneBjGHoWGW-1" vertex="1">
-          <mxGeometry x="620" y="375" width="170" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="robmpz8OFTneBjGHoWGW-11" value="基于Function的Op体系设计" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="robmpz8OFTneBjGHoWGW-1" vertex="1">
-          <mxGeometry x="620" y="285" width="170" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="robmpz8OFTneBjGHoWGW-12" value="动态图执行体系重构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="robmpz8OFTneBjGHoWGW-1" vertex="1">
-          <mxGeometry x="620" y="195" width="170" height="20" as="geometry" />
+        <mxCell id="S9rtW3x4XouI_qsquU5q-0" value="编译关系&lt;br&gt;梳理优化&lt;br style=&quot;font-size: 13px&quot;&gt;(占略)" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=0;fontSize=13;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="robmpz8OFTneBjGHoWGW-1">
+          <mxGeometry x="130" y="170" width="90" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="UxkWZLrMQXHlm2J_dvVx" name="func-format">
-    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="18ZR6k87n9XS3MKkq4Jw-0" />
         <mxCell id="18ZR6k87n9XS3MKkq4Jw-1" parent="18ZR6k87n9XS3MKkq4Jw-0" />
@@ -1338,7 +1332,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nLDFi6RticIttI9lSNVX" name="relation">
-    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IR5k51bk-lvS7v3UsY7R-0" />
         <mxCell id="IR5k51bk-lvS7v3UsY7R-1" parent="IR5k51bk-lvS7v3UsY7R-0" />
@@ -1394,7 +1388,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bksYAQGrxQFoKnm-9dQc" name="relation2">
-    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="TkF5HFOxIqxonUFFiTVx-0" />
         <mxCell id="TkF5HFOxIqxonUFFiTVx-1" parent="TkF5HFOxIqxonUFFiTVx-0" />
@@ -1455,50 +1449,50 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_SmYJq2POnX-wVxiaduQ" name="Page-13">
-    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="i0H01BSrihBeYZKtBgt6-0" />
         <mxCell id="i0H01BSrihBeYZKtBgt6-1" parent="i0H01BSrihBeYZKtBgt6-0" />
-        <mxCell id="i0H01BSrihBeYZKtBgt6-2" value="OpInfoMap" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="i0H01BSrihBeYZKtBgt6-1">
+        <mxCell id="i0H01BSrihBeYZKtBgt6-2" value="OpInfoMap" style="rounded=1;whiteSpace=wrap;html=1;" parent="i0H01BSrihBeYZKtBgt6-1" vertex="1">
           <mxGeometry x="315" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i0H01BSrihBeYZKtBgt6-3" value="OpKernelMap" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="i0H01BSrihBeYZKtBgt6-1">
+        <mxCell id="i0H01BSrihBeYZKtBgt6-3" value="OpKernelMap" style="rounded=1;whiteSpace=wrap;html=1;" parent="i0H01BSrihBeYZKtBgt6-1" vertex="1">
           <mxGeometry x="460" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i0H01BSrihBeYZKtBgt6-4" value="OperatorBase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="i0H01BSrihBeYZKtBgt6-1">
+        <mxCell id="i0H01BSrihBeYZKtBgt6-4" value="OperatorBase" style="rounded=1;whiteSpace=wrap;html=1;" parent="i0H01BSrihBeYZKtBgt6-1" vertex="1">
           <mxGeometry x="170" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i0H01BSrihBeYZKtBgt6-5" value="framwork" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="i0H01BSrihBeYZKtBgt6-1">
+        <mxCell id="i0H01BSrihBeYZKtBgt6-5" value="framwork" style="rounded=1;whiteSpace=wrap;html=1;" parent="i0H01BSrihBeYZKtBgt6-1" vertex="1">
           <mxGeometry x="170" y="210" width="580" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i0H01BSrihBeYZKtBgt6-6" value="std::map/unordered_map/vector" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="i0H01BSrihBeYZKtBgt6-1">
+        <mxCell id="i0H01BSrihBeYZKtBgt6-6" value="std::map/unordered_map/vector" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="i0H01BSrihBeYZKtBgt6-1" vertex="1">
           <mxGeometry x="170" y="370" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i0H01BSrihBeYZKtBgt6-7" value="Execution/InferShape/...&lt;br&gt;Context" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="i0H01BSrihBeYZKtBgt6-1">
+        <mxCell id="i0H01BSrihBeYZKtBgt6-7" value="Execution/InferShape/...&lt;br&gt;Context" style="rounded=1;whiteSpace=wrap;html=1;" parent="i0H01BSrihBeYZKtBgt6-1" vertex="1">
           <mxGeometry x="600" y="290" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i0H01BSrihBeYZKtBgt6-8" value="boost library" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="i0H01BSrihBeYZKtBgt6-1">
+        <mxCell id="i0H01BSrihBeYZKtBgt6-8" value="boost library" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="i0H01BSrihBeYZKtBgt6-1" vertex="1">
           <mxGeometry x="530" y="370" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i0H01BSrihBeYZKtBgt6-9" value="OpInfoMap" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="i0H01BSrihBeYZKtBgt6-1">
+        <mxCell id="i0H01BSrihBeYZKtBgt6-9" value="OpInfoMap" style="rounded=1;whiteSpace=wrap;html=1;" parent="i0H01BSrihBeYZKtBgt6-1" vertex="1">
           <mxGeometry x="315" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i0H01BSrihBeYZKtBgt6-10" value="OpKernelMap" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="i0H01BSrihBeYZKtBgt6-1">
+        <mxCell id="i0H01BSrihBeYZKtBgt6-10" value="OpKernelMap" style="rounded=1;whiteSpace=wrap;html=1;" parent="i0H01BSrihBeYZKtBgt6-1" vertex="1">
           <mxGeometry x="460" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i0H01BSrihBeYZKtBgt6-11" value="OperatorBase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="i0H01BSrihBeYZKtBgt6-1">
+        <mxCell id="i0H01BSrihBeYZKtBgt6-11" value="OperatorBase" style="rounded=1;whiteSpace=wrap;html=1;" parent="i0H01BSrihBeYZKtBgt6-1" vertex="1">
           <mxGeometry x="170" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i0H01BSrihBeYZKtBgt6-12" value="framwork" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="i0H01BSrihBeYZKtBgt6-1">
+        <mxCell id="i0H01BSrihBeYZKtBgt6-12" value="framwork" style="rounded=1;whiteSpace=wrap;html=1;" parent="i0H01BSrihBeYZKtBgt6-1" vertex="1">
           <mxGeometry x="170" y="480" width="580" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i0H01BSrihBeYZKtBgt6-13" value="ska::flat_hash_map/llvm::small_vector" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="i0H01BSrihBeYZKtBgt6-1">
+        <mxCell id="i0H01BSrihBeYZKtBgt6-13" value="ska::flat_hash_map/llvm::small_vector" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="i0H01BSrihBeYZKtBgt6-1" vertex="1">
           <mxGeometry x="170" y="640" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i0H01BSrihBeYZKtBgt6-14" value="Execution/InferShape/...&lt;br&gt;Context" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="i0H01BSrihBeYZKtBgt6-1">
+        <mxCell id="i0H01BSrihBeYZKtBgt6-14" value="Execution/InferShape/...&lt;br&gt;Context" style="rounded=1;whiteSpace=wrap;html=1;" parent="i0H01BSrihBeYZKtBgt6-1" vertex="1">
           <mxGeometry x="600" y="560" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i0H01BSrihBeYZKtBgt6-15" value="boost::any/variant headers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="i0H01BSrihBeYZKtBgt6-1">
+        <mxCell id="i0H01BSrihBeYZKtBgt6-15" value="boost::any/variant headers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="i0H01BSrihBeYZKtBgt6-1" vertex="1">
           <mxGeometry x="530" y="640" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
