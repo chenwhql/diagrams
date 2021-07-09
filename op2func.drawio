@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-09T06:46:08.772Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Cx1cPMY2GhsKEQK7Uf7B" version="14.8.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2021-07-09T07:24:13.612Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="tEqPSSQFVnbySkvi0vYi" version="14.8.4" type="github" pages="16">
   <diagram id="XrOp-hCifYHvVCoy_8z_" name="Works">
     <mxGraphModel dx="1773" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1351,7 +1351,7 @@
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" source="VDW-bL01V7UmtTu4qGaJ-2" target="VDW-bL01V7UmtTu4qGaJ-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-2" value="template &amp;lt;T&amp;gt;&lt;br&gt;Tensor ScaleCpu(...)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=11;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
+        <mxCell id="VDW-bL01V7UmtTu4qGaJ-2" value="template &amp;lt;T&amp;gt;&lt;br&gt;void Scale(CPU,&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;BaseTensor, ...)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=11;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
           <mxGeometry x="79" y="400" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" source="VDW-bL01V7UmtTu4qGaJ-4" edge="1">
@@ -1359,20 +1359,20 @@
             <mxPoint x="230" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-4" value="&lt;span style=&quot;&quot;&gt;template &amp;lt;T&amp;gt;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;Tensor ScaleCuda(...)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
+        <mxCell id="VDW-bL01V7UmtTu4qGaJ-4" value="&lt;span&gt;template &amp;lt;T&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;void Scale(CUDA,&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;BaseTensor...)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
           <mxGeometry x="249" y="400" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" source="VDW-bL01V7UmtTu4qGaJ-6" target="VDW-bL01V7UmtTu4qGaJ-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-6" value="&lt;span style=&quot;&quot;&gt;template &amp;lt;T&amp;gt;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;Tensor ScaleXpu(...)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=10;align=left;fillColor=#f8cecc;strokeColor=#b85450;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
+        <mxCell id="VDW-bL01V7UmtTu4qGaJ-6" value="&lt;span&gt;template &amp;lt;T&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;void Scale(XPU,&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;BaseTensor...)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=10;align=left;fillColor=#f8cecc;strokeColor=#b85450;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
           <mxGeometry x="419" y="400" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" source="VDW-bL01V7UmtTu4qGaJ-8" target="VDW-bL01V7UmtTu4qGaJ-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-8" value="&lt;span style=&quot;&quot;&gt;template &amp;lt;T&amp;gt;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;Tensor ScaleMkldnn(...)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=10;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
-          <mxGeometry x="589" y="400" width="140" height="60" as="geometry" />
+        <mxCell id="VDW-bL01V7UmtTu4qGaJ-8" value="&lt;span&gt;template &amp;lt;T&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;void Scale(MKLDNN,&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;MKLDNNTensor...)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=10;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
+          <mxGeometry x="589" y="400" width="151" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-9" value="......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
           <mxGeometry x="749" y="420" width="40" height="20" as="geometry" />
@@ -1414,7 +1414,7 @@
           <mxGeometry x="423.5" y="510" width="131" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-22" value="Npu::Power(...)" style="rounded=0;whiteSpace=wrap;html=1;align=center;spacingLeft=0;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
-          <mxGeometry x="593.5" y="510" width="131" height="60" as="geometry" />
+          <mxGeometry x="599" y="510" width="131" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-23" value="" style="endArrow=none;dashed=1;html=1;" parent="eiCdpPDRoMP6rdo_62gw-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1780,7 +1780,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KaJs2vcnZtORcjXJEIHS" name="work-progess">
-    <mxGraphModel dx="1940" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3258" dy="1331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="iCkDotpDtIGfZ6G10587-0" />
         <mxCell id="iCkDotpDtIGfZ6G10587-1" parent="iCkDotpDtIGfZ6G10587-0" />
