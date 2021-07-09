@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-09T07:28:25.012Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="oCDELIey52jLeDennFqu" version="14.8.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2021-07-09T07:32:34.748Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="brhcWeXZ1j7wh2zCVlR7" version="14.8.4" type="github" pages="16">
   <diagram id="XrOp-hCifYHvVCoy_8z_" name="Works">
     <mxGraphModel dx="1773" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1389,17 +1389,8 @@
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" source="VDW-bL01V7UmtTu4qGaJ-14" target="VDW-bL01V7UmtTu4qGaJ-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-14" value="BaseTensor Scale(&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;BaseTensor, &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;ScalarTensor, ...)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=11;fillColor=#d5e8d4;strokeColor=#82b366;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
-          <mxGeometry x="80" y="290" width="139" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-15" value="BaseTensor Scale(&lt;br&gt;&amp;nbsp; &amp;nbsp; BaseTensor, float, ...)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#d5e8d4;strokeColor=#82b366;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
-          <mxGeometry x="440" y="290" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-16" value="SelectedRows ScaleSelectedRows(&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;SelectedRows, &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;ScalarTensor, ...)" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=10;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
-          <mxGeometry x="240" y="290" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-17" value="SelectedRows ScaleSelectedRows(&lt;br&gt;&amp;nbsp; &amp;nbsp; SelectedRows, float, ...)" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=10;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
-          <mxGeometry x="599" y="290" width="161" height="60" as="geometry" />
+        <mxCell id="VDW-bL01V7UmtTu4qGaJ-14" value="TensorImpl的类型分发&lt;br&gt;- BaseTensor&lt;br&gt;- SelectedRows" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=11;fillColor=#d5e8d4;strokeColor=#82b366;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
+          <mxGeometry x="160.5" y="290" width="139" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" source="VDW-bL01V7UmtTu4qGaJ-19" target="VDW-bL01V7UmtTu4qGaJ-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1449,7 +1440,7 @@
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-28" value="C++ API层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
           <mxGeometry x="-50" y="203" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-29" value="输入参数选择层&lt;br&gt;（Optional）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
+        <mxCell id="VDW-bL01V7UmtTu4qGaJ-29" value="C++ API实现层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
           <mxGeometry x="-70" y="300" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-30" value="设备和数据类型选择层&lt;br&gt;（新Kernel注册）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
@@ -1461,20 +1452,19 @@
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="eiCdpPDRoMP6rdo_62gw-1" source="VDW-bL01V7UmtTu4qGaJ-34" target="VDW-bL01V7UmtTu4qGaJ-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="eiCdpPDRoMP6rdo_62gw-1" source="7He__Fgd2p1crWSwTC7m-0" target="VDW-bL01V7UmtTu4qGaJ-15" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="eiCdpPDRoMP6rdo_62gw-1" source="VDW-bL01V7UmtTu4qGaJ-34" target="VDW-bL01V7UmtTu4qGaJ-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VDW-bL01V7UmtTu4qGaJ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="eiCdpPDRoMP6rdo_62gw-1" source="7He__Fgd2p1crWSwTC7m-0" target="VDW-bL01V7UmtTu4qGaJ-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="VDW-bL01V7UmtTu4qGaJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="eiCdpPDRoMP6rdo_62gw-1" source="7He__Fgd2p1crWSwTC7m-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="VDW-bL01V7UmtTu4qGaJ-34" value="Tensor scale(&lt;br&gt;Tensor, Tensor, ...)" style="rounded=0;whiteSpace=wrap;html=1;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
           <mxGeometry x="165" y="181" width="130" height="59" as="geometry" />
         </mxCell>
         <mxCell id="7He__Fgd2p1crWSwTC7m-0" value="Tensor scale(&lt;br&gt;Tensor, float, ...)" style="rounded=0;whiteSpace=wrap;html=1;" parent="eiCdpPDRoMP6rdo_62gw-1" vertex="1">
           <mxGeometry x="530" y="181" width="130" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="uTwoJ4y5S7JK77CTbTSU-0" value="TensorImpl的类型分发&lt;br&gt;- BaseTensor&lt;br&gt;- SelectedRows" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="eiCdpPDRoMP6rdo_62gw-1">
+          <mxGeometry x="525.5" y="290" width="139" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
