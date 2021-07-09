@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T13:18:06.986Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="YJd_6QXPdDH06Y2p3DmT" version="14.8.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2021-07-09T06:44:35.446Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="W6WW7sv7sthGESLcct27" version="14.8.4" type="github" pages="16">
   <diagram id="XrOp-hCifYHvVCoy_8z_" name="Works">
     <mxGraphModel dx="1773" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2534,6 +2534,12 @@
               <mxPoint x="730" y="420" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DrVV6Wqkr2nS8B-Q6ihK-2" value="ObjectTensorImpl" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#b85450;sketch=1;" vertex="1" parent="l_N8zFf3a3DttV2apxN2-1">
+          <mxGeometry x="1320" y="465" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DrVV6Wqkr2nS8B-Q6ihK-3" value="- PyObject* obj_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;" vertex="1" parent="DrVV6Wqkr2nS8B-Q6ihK-2">
+          <mxGeometry y="26" width="170" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
