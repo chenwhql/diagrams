@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T10:34:05.844Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="3_KOW3niDZGINoBzdu1F" version="14.9.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-07-23T10:35:01.264Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="giObkjrWWZi846MEkPbK" version="14.9.0" type="github" pages="5">
   <diagram id="rkmyW1WvGG2G9KnQgsLw" name="torch-tensor">
     <mxGraphModel dx="2066" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -945,7 +945,7 @@
           <mxGeometry y="76" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="0d6bVzQWWg7MbXUk0Itc-3" value="Allocation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;sketch=1;" vertex="1" parent="wZulakJZBy3D4Ly5kJ1o-1">
-          <mxGeometry x="460" y="640" width="150" height="104" as="geometry" />
+          <mxGeometry x="450" y="640" width="150" height="104" as="geometry" />
         </mxCell>
         <mxCell id="0d6bVzQWWg7MbXUk0Itc-4" value="- ptr_: void*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;" vertex="1" parent="0d6bVzQWWg7MbXUk0Itc-3">
           <mxGeometry y="26" width="150" height="26" as="geometry" />
@@ -962,7 +962,7 @@
             <mxPoint x="530" y="691" as="targetPoint" />
             <Array as="points">
               <mxPoint x="725" y="610" />
-              <mxPoint x="535" y="610" />
+              <mxPoint x="525" y="610" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1069,7 +1069,7 @@
           <mxGeometry y="154" width="150" height="26" as="geometry" />
         </mxCell>
         <mxCell id="0d6bVzQWWg7MbXUk0Itc-68" value="TensorStatus" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;sketch=1;" vertex="1" parent="wZulakJZBy3D4Ly5kJ1o-1">
-          <mxGeometry x="835" y="640" width="150" height="52" as="geometry" />
+          <mxGeometry x="850" y="640" width="150" height="52" as="geometry" />
         </mxCell>
         <mxCell id="0d6bVzQWWg7MbXUk0Itc-69" value="+ version: InplaceVersion" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;" vertex="1" parent="0d6bVzQWWg7MbXUk0Itc-68">
           <mxGeometry y="26" width="150" height="26" as="geometry" />
@@ -1091,7 +1091,7 @@
             <mxPoint x="470" y="1092.0000000000002" as="targetPoint" />
             <Array as="points">
               <mxPoint x="725" y="600" />
-              <mxPoint x="910" y="600" />
+              <mxPoint x="925" y="600" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
