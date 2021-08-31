@@ -1,4 +1,4 @@
-<mxfile modified="2021-08-31T09:45:34.417Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="HrM1AoR-taisp7HPVHn7" version="14.9.8" type="github" pages="15">
+<mxfile modified="2021-08-31T09:46:41.560Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="YnlOjxVP3johwXKqIer1" version="14.9.8" type="github" pages="15">
   <diagram id="X-ET9mHpOGj9Mq2T7B19" name="Page-1">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1744,7 +1744,7 @@
         <mxCell id="X8j-fAkmICErvFfMvCbf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="zMdH8qJXNLgg_eBeZnVY-1" source="CgTcaHoBDtAxC72Gza1i-13" target="X8j-fAkmICErvFfMvCbf-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CgTcaHoBDtAxC72Gza1i-13" value="Tensor计算库：Kernel编写、注册、&lt;br&gt;管理及调用，API设计&lt;br&gt;（威行）" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=0;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="zMdH8qJXNLgg_eBeZnVY-1">
+        <mxCell id="CgTcaHoBDtAxC72Gza1i-13" value="Tensor运算库：Kernel编写、注册、&lt;br&gt;管理及调用，API设计&lt;br&gt;（威行）" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=0;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="zMdH8qJXNLgg_eBeZnVY-1">
           <mxGeometry x="170" y="398" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="X8j-fAkmICErvFfMvCbf-0" value="新Tensor与Context&lt;br&gt;基础设计&lt;br&gt;（晓伟）" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=0;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="zMdH8qJXNLgg_eBeZnVY-1">
