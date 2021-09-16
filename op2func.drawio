@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-08T10:10:58.749Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="yfWzg4i306KJ2VGKLYhZ" version="15.0.3" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2021-09-16T06:07:02.980Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="L81RRS55he52GYUIlUJj" version="15.0.3" type="github" pages="14">
   <diagram id="XrOp-hCifYHvVCoy_8z_" name="Works">
     <mxGraphModel dx="1773" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -410,7 +410,7 @@
         <mxCell id="Jgr0bRMLufQ3TRwM39J3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;fontColor=#000000;" parent="OydSE7Ss0IEXl4ENJlcu-1" source="NwfbzU9ibvw_dipLc5Nz-3" target="NwfbzU9ibvw_dipLc5Nz-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NwfbzU9ibvw_dipLc5Nz-3" value="if dygraph &amp;amp; core.ops.elementwise_add" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
+        <mxCell id="NwfbzU9ibvw_dipLc5Nz-3" value="if dygraph &amp;amp; core.ops.elementwise_add" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
           <mxGeometry x="140" y="243" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Jgr0bRMLufQ3TRwM39J3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" parent="OydSE7Ss0IEXl4ENJlcu-1" source="NwfbzU9ibvw_dipLc5Nz-4" edge="1">
@@ -430,7 +430,7 @@
         <mxCell id="Jgr0bRMLufQ3TRwM39J3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" parent="OydSE7Ss0IEXl4ENJlcu-1" source="KJLtOfmGV3E42OthESjS-2" target="KJLtOfmGV3E42OthESjS-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KJLtOfmGV3E42OthESjS-2" value="AttrChecker-&amp;gt;Check" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
+        <mxCell id="KJLtOfmGV3E42OthESjS-2" value="AttrChecker-&amp;gt;Check" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
           <mxGeometry x="178.75" y="450" width="152.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Jgr0bRMLufQ3TRwM39J3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" parent="OydSE7Ss0IEXl4ENJlcu-1" source="KJLtOfmGV3E42OthESjS-3" target="KJLtOfmGV3E42OthESjS-5" edge="1">
@@ -448,19 +448,19 @@
         <mxCell id="Jgr0bRMLufQ3TRwM39J3-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;fontColor=#000000;" parent="OydSE7Ss0IEXl4ENJlcu-1" source="KJLtOfmGV3E42OthESjS-6" target="KJLtOfmGV3E42OthESjS-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KJLtOfmGV3E42OthESjS-6" value="Find Kernel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
+        <mxCell id="KJLtOfmGV3E42OthESjS-6" value="Find Kernel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
           <mxGeometry x="171.88" y="658" width="166.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Jgr0bRMLufQ3TRwM39J3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" parent="OydSE7Ss0IEXl4ENJlcu-1" source="KJLtOfmGV3E42OthESjS-7" target="KJLtOfmGV3E42OthESjS-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KJLtOfmGV3E42OthESjS-7" value="InferShape" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
+        <mxCell id="KJLtOfmGV3E42OthESjS-7" value="InferShape" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
           <mxGeometry x="171.88" y="727" width="166.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Jgr0bRMLufQ3TRwM39J3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" parent="OydSE7Ss0IEXl4ENJlcu-1" source="KJLtOfmGV3E42OthESjS-8" target="Jgr0bRMLufQ3TRwM39J3-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KJLtOfmGV3E42OthESjS-8" value="Run Kernel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
+        <mxCell id="KJLtOfmGV3E42OthESjS-8" value="Run Kernel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
           <mxGeometry x="171.88" y="796" width="166.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Jgr0bRMLufQ3TRwM39J3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" parent="OydSE7Ss0IEXl4ENJlcu-1" source="Jgr0bRMLufQ3TRwM39J3-0" target="NwfbzU9ibvw_dipLc5Nz-0" edge="1">
@@ -484,19 +484,19 @@
         <mxCell id="Jgr0bRMLufQ3TRwM39J3-19" value="问题：要先构建DygraphExecutionContext&lt;span style=&quot;font-family: museo, segoe, &amp;quot;segoe ui&amp;quot;, helvetica, arial, sans-serif;&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;，map以string为key访问是低效的&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=13;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
           <mxGeometry x="350" y="600" width="320" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Jgr0bRMLufQ3TRwM39J3-20" value="问题：OpKernelType是一个复合结构，每次hash要作一系列运算，torch直接用枚举值作为Key" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=13;fontColor=#000000;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
+        <mxCell id="Jgr0bRMLufQ3TRwM39J3-20" value="（必要步骤）问题：如果全部以静态代码生成的方式在编译器明确Kernel函数，也可以避免查找" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=13;fontColor=#000000;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
           <mxGeometry x="350" y="670" width="310" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Jgr0bRMLufQ3TRwM39J3-21" value="问题：OpKernelType是一个复合结构，作为Key也是比较低效的" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=13;fontColor=#000000;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
+        <mxCell id="Jgr0bRMLufQ3TRwM39J3-21" value="（必要步骤）问题：现在InferShape需要构建InferShapeContext，map操作，访问低效" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=13;fontColor=#000000;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
           <mxGeometry x="350" y="740" width="310" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Jgr0bRMLufQ3TRwM39J3-22" value="问题：attr默认值填充效率差，王欢正在优化" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=13;fontColor=#000000;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
           <mxGeometry x="360" y="460" width="320" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Jgr0bRMLufQ3TRwM39J3-23" value="问题：第二次构建DygraphExecutionContext，执行过程中仍然是map以string作为key访问" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=13;fontColor=#000000;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
-          <mxGeometry x="355" y="806" width="310" height="20" as="geometry" />
+        <mxCell id="Jgr0bRMLufQ3TRwM39J3-23" value="（必要步骤）问题：第二次构建DygraphExecutionContext，执行过程中仍然是map以string作为key访问" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=13;fontColor=#000000;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
+          <mxGeometry x="355" y="806" width="355" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Jgr0bRMLufQ3TRwM39J3-25" value="问题：Pybind交互效率差于PythonC，王欢正在优化" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=13;fontColor=#000000;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
+        <mxCell id="Jgr0bRMLufQ3TRwM39J3-25" value="（必要步骤）问题：之前Pybind交互效率差于PythonC，王欢已进行优化" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=13;fontColor=#000000;" parent="OydSE7Ss0IEXl4ENJlcu-1" vertex="1">
           <mxGeometry x="390" y="253" width="320" height="20" as="geometry" />
         </mxCell>
       </root>
