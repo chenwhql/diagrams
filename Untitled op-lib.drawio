@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T14:38:06.631Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="fZUA0WfzGO58k5sI0mht" version="17.4.5" type="github">
-  <diagram id="NkqMn08no8hSKEZJivaE" name="Page-1">
-    <mxGraphModel dx="473" dy="307" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-05-05T02:51:48.601Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Q1RYmjWlVaCTnwcddcWN" version="17.4.5" type="github" pages="2">
+  <diagram id="NkqMn08no8hSKEZJivaE" name="framework">
+    <mxGraphModel dx="788" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,6 +33,66 @@
         </mxCell>
         <mxCell id="mUzrur5JFKt8VHuN9QWR-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;上层框架执行体系&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="100" width="370" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="X960bwzPuzh3_Vx68Gtz" name="progress">
+    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="es0Vn_IxNAkJpTyqncEE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="es0Vn_IxNAkJpTyqncEE-3" target="es0Vn_IxNAkJpTyqncEE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es0Vn_IxNAkJpTyqncEE-3" value="变长输入参数的函数" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="es0Vn_IxNAkJpTyqncEE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="es0Vn_IxNAkJpTyqncEE-5" target="es0Vn_IxNAkJpTyqncEE-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es0Vn_IxNAkJpTyqncEE-5" value="模板推导结构体" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="es0Vn_IxNAkJpTyqncEE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="es0Vn_IxNAkJpTyqncEE-7" target="es0Vn_IxNAkJpTyqncEE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es0Vn_IxNAkJpTyqncEE-7" value="开始" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="155" y="50" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="es0Vn_IxNAkJpTyqncEE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="es0Vn_IxNAkJpTyqncEE-9" target="es0Vn_IxNAkJpTyqncEE-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es0Vn_IxNAkJpTyqncEE-9" value="多种特化推导模板&lt;br style=&quot;font-size: 14px;&quot;&gt;匹配多种类型&lt;br style=&quot;font-size: 14px;&quot;&gt;Tensor, int, float..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="120" y="290" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="es0Vn_IxNAkJpTyqncEE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="es0Vn_IxNAkJpTyqncEE-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="430" />
+              <mxPoint x="320" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="es0Vn_IxNAkJpTyqncEE-11" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="es0Vn_IxNAkJpTyqncEE-10">
+          <mxGeometry x="-0.3333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="es0Vn_IxNAkJpTyqncEE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="es0Vn_IxNAkJpTyqncEE-14" target="es0Vn_IxNAkJpTyqncEE-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es0Vn_IxNAkJpTyqncEE-13" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="es0Vn_IxNAkJpTyqncEE-12">
+          <mxGeometry y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="es0Vn_IxNAkJpTyqncEE-14" value="匹配到结束标志？" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="105" y="390" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="es0Vn_IxNAkJpTyqncEE-15" value="结束" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="155" y="510" width="90" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
