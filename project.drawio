@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T03:06:04.313Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="qWViNbe08dWF4Y9utXBA" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T03:22:03.953Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="EcafG-wEoSa0FTzqw4um" version="18.0.2" type="github">
   <diagram id="AkEbU5Lf4pVV4BZRs5vu" name="Page-1">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,7 +32,7 @@
           <mxGeometry x="530" y="400" width="153" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nK6vygtbl7YxW8PINwqs-7" value="算子库重要机制补齐" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="400" width="153" height="50" as="geometry" />
+          <mxGeometry x="727" y="400" width="153" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nK6vygtbl7YxW8PINwqs-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="nK6vygtbl7YxW8PINwqs-8" target="nK6vygtbl7YxW8PINwqs-11">
           <mxGeometry relative="1" as="geometry" />
@@ -43,7 +43,7 @@
         <mxCell id="nK6vygtbl7YxW8PINwqs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="nK6vygtbl7YxW8PINwqs-11" target="nK6vygtbl7YxW8PINwqs-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nK6vygtbl7YxW8PINwqs-11" value="5个重点模型性能&lt;br&gt;针对性分析优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nK6vygtbl7YxW8PINwqs-11" value="5个重点模型性能分析&lt;br&gt;必要算子+API升级" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="450" width="153" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nK6vygtbl7YxW8PINwqs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="nK6vygtbl7YxW8PINwqs-12" target="nK6vygtbl7YxW8PINwqs-13">
@@ -55,7 +55,7 @@
         <mxCell id="nK6vygtbl7YxW8PINwqs-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="nK6vygtbl7YxW8PINwqs-13" target="nK6vygtbl7YxW8PINwqs-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nK6vygtbl7YxW8PINwqs-13" value="小版本发布新动态图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nK6vygtbl7YxW8PINwqs-13" value="2.3小版本发布新动态图" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="120" y="620" width="153" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nK6vygtbl7YxW8PINwqs-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="nK6vygtbl7YxW8PINwqs-14" target="nK6vygtbl7YxW8PINwqs-22">
@@ -67,11 +67,56 @@
         <mxCell id="nK6vygtbl7YxW8PINwqs-22" value="紧急投入人力加trick&lt;br&gt;or 建议用户切换回旧动态图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="106.25" y="820" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nK6vygtbl7YxW8PINwqs-24" value="开始投入人力补齐算子库机制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="106.25" y="920" width="180" height="50" as="geometry" />
+        <mxCell id="nK6vygtbl7YxW8PINwqs-24" value="补齐算子库机制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="920" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nK6vygtbl7YxW8PINwqs-25" value="算子整体排查&lt;br&gt;必要算子迁移及新动态图适配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="106.25" y="1010" width="180" height="50" as="geometry" />
+          <mxGeometry x="220" y="1020" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-26" value="算子整体排查&lt;br&gt;必要算子迁移及新动态图适配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="713.5" y="520" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-27" value="动态图Python API排查升级" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="920" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-28" value="动态图Python API排查升级" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="516.5" y="520" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-29" value="算子库API规范化监控落地" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="713.5" y="630" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-30" value="全量模型性能收益验收" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="516.5" y="630" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-31" value="全量模型性能收益验收" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1020" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-32" value="所有算子改为phi形式 &amp;amp; phi编译解耦" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="750" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-33" value="动态图中间态&amp;amp;旧动态图退场" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="516.5" y="970" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-34" value="旧算子体系退场" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="713.5" y="970" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-35" value="2.4版本发布" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="610" y="860" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-36" value="所有算子改为phi形式 &amp;amp; phi编译解耦" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="53.5" y="1300" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-37" value="动态图中间态&amp;amp;旧动态图退场" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="13" y="1390" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-38" value="旧算子体系退场" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1390" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-39" value="2.4版本发布" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="111.5" y="1210" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-40" value="算子库API规范化监控落地" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111.5" y="1119" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
