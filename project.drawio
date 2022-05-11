@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T03:33:24.652Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="VAxgzWCVSAbeinSbRyY7" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T03:38:59.887Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="ngxAlZqnKKfm01xvAxKY" version="18.0.2" type="github">
   <diagram id="AkEbU5Lf4pVV4BZRs5vu" name="Page-1">
-    <mxGraphModel dx="1773" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1940" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nK6vygtbl7YxW8PINwqs-78" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;fillColor=none;dashed=1;strokeColor=#0F77FF;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-28.5" y="990" width="460" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-79" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;fillColor=none;dashed=1;strokeColor=#0F77FF;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="483.5" y="375" width="446.5" height="665" as="geometry" />
+        </mxCell>
         <mxCell id="nK6vygtbl7YxW8PINwqs-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;fillColor=none;dashed=1;strokeColor=#FF0000;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="51.5" y="420" width="290" height="560" as="geometry" />
         </mxCell>
@@ -13,7 +19,10 @@
         <mxCell id="nK6vygtbl7YxW8PINwqs-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="100" width="106" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nK6vygtbl7YxW8PINwqs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nK6vygtbl7YxW8PINwqs-2" target="nK6vygtbl7YxW8PINwqs-3">
+        <mxCell id="nK6vygtbl7YxW8PINwqs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="nK6vygtbl7YxW8PINwqs-2" target="nK6vygtbl7YxW8PINwqs-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#CC99FF;strokeWidth=2;" edge="1" parent="1" source="nK6vygtbl7YxW8PINwqs-2" target="nK6vygtbl7YxW8PINwqs-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nK6vygtbl7YxW8PINwqs-2" value="动态图CI默认模式切换&lt;br&gt;CE模型正确性保证" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -22,11 +31,21 @@
         <mxCell id="nK6vygtbl7YxW8PINwqs-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="nK6vygtbl7YxW8PINwqs-3" target="nK6vygtbl7YxW8PINwqs-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-83" value="&lt;font color=&quot;#000000&quot;&gt;是&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#CC99FF;" vertex="1" connectable="0" parent="nK6vygtbl7YxW8PINwqs-15">
+          <mxGeometry x="0.1173" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nK6vygtbl7YxW8PINwqs-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="nK6vygtbl7YxW8PINwqs-3" target="nK6vygtbl7YxW8PINwqs-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nK6vygtbl7YxW8PINwqs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="nK6vygtbl7YxW8PINwqs-3" target="nK6vygtbl7YxW8PINwqs-7">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-84" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="nK6vygtbl7YxW8PINwqs-17">
+          <mxGeometry x="-0.703" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="nK6vygtbl7YxW8PINwqs-3" value="是否小版本发布新动态图" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="307" y="260" width="200" height="80" as="geometry" />
@@ -222,6 +241,15 @@
         </mxCell>
         <mxCell id="nK6vygtbl7YxW8PINwqs-74" value="不兼容升级点全局梳理&lt;br&gt;&amp;nbsp;&amp;amp; 评审决策" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="518.25" y="740" width="176.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-80" value="该做的工作还需要继续&lt;br&gt;部分工作赶不上2.4发版" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#0F77FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="431.5" y="1219" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-85" value="人力分流，节奏相对放缓" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="570" y="260" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-86" value="集中攻坚，尽快发版" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="83" y="260" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
