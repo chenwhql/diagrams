@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T03:31:41.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="xkaLHRBBOLik6qKcp4wT" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T03:33:12.516Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="W6l5lNrDSU3DP2alpSYI" version="18.0.2" type="github">
   <diagram id="AkEbU5Lf4pVV4BZRs5vu" name="Page-1">
     <mxGraphModel dx="1773" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -109,13 +109,13 @@
         <mxCell id="nK6vygtbl7YxW8PINwqs-28" value="动态图Python API排查升级" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="516.5" y="520" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nK6vygtbl7YxW8PINwqs-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="nK6vygtbl7YxW8PINwqs-29" target="nK6vygtbl7YxW8PINwqs-32">
+        <mxCell id="nK6vygtbl7YxW8PINwqs-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="nK6vygtbl7YxW8PINwqs-29" target="nK6vygtbl7YxW8PINwqs-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nK6vygtbl7YxW8PINwqs-29" value="算子库API规范化监控落地" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="713.5" y="630" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nK6vygtbl7YxW8PINwqs-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="nK6vygtbl7YxW8PINwqs-30" target="nK6vygtbl7YxW8PINwqs-32">
+        <mxCell id="nK6vygtbl7YxW8PINwqs-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="nK6vygtbl7YxW8PINwqs-30" target="nK6vygtbl7YxW8PINwqs-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nK6vygtbl7YxW8PINwqs-30" value="全量模型性能收益验收" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -130,8 +130,8 @@
         <mxCell id="nK6vygtbl7YxW8PINwqs-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="nK6vygtbl7YxW8PINwqs-32" target="nK6vygtbl7YxW8PINwqs-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nK6vygtbl7YxW8PINwqs-32" value="所有算子改为phi形式 &amp;amp; phi编译解耦" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="750" width="290" height="50" as="geometry" />
+        <mxCell id="nK6vygtbl7YxW8PINwqs-32" value="所有算子改为phi形式&lt;br&gt;phi编译解耦" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="715.25" y="740" width="176.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nK6vygtbl7YxW8PINwqs-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="nK6vygtbl7YxW8PINwqs-33" target="nK6vygtbl7YxW8PINwqs-57">
           <mxGeometry relative="1" as="geometry" />
@@ -216,6 +216,12 @@
         </mxCell>
         <mxCell id="nK6vygtbl7YxW8PINwqs-58" value="短线工作&lt;br&gt;部分工作无长期收益" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#FF0000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-88.5" y="640" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="nK6vygtbl7YxW8PINwqs-74" target="nK6vygtbl7YxW8PINwqs-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nK6vygtbl7YxW8PINwqs-74" value="不兼容升级点全局梳理&lt;br&gt;&amp;nbsp;&amp;amp; 评审决策" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="518.25" y="740" width="176.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
